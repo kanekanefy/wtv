@@ -1,4 +1,161 @@
 #EXTM3U
+#EXTM3U
+#EXTINF:-1 ,CCTV-1
+http://111.12.102.68:6610/PLTV/77777777/224/3221225674/index.m3u8?
+#EXTINF:-1 ,CCTV-1
+http://111.12.102.68:6610/PLTV/77777777/224/3221225654/index.m3u8?
+#EXTINF:-1 ,CCTV-1
+http://111.12.102.68:6610/PLTV/77777777/224/3221225772/index.m3u8?
+#EXTINF:-1 ,CCTV-2
+http://111.12.102.68:6610/PLTV/77777777/224/3221225676/index.m3u8?
+#EXTINF:-1 ,CCTV-2
+http://111.12.102.68:6610/PLTV/77777777/224/3221225657/index.m3u8?
+#EXTINF:-1 ,CCTV-31
+http://117.169.124.36:6610/ysten-businessmobile/live/cctv-3/1.m3u8
+#EXTINF:-1 ,CCTV-3
+http://111.63.117.13:6060/030000001000/CCTV-3/CCTV-3.m3u8
+#EXTINF:-1 ,CCTV-4
+http://111.12.102.68:6610/PLTV/77777777/224/3221225775/index.m3u8?
+#EXTINF:-1 ,CCTV-42
+http://111.12.102.68:6610/PLTV/77777777/224/3221225761/index.m3u8?
+#EXTINF:-1 ,CCTV-4
+http://111.12.102.68:6610/PLTV/77777777/224/3221225753/index.m3u8?
+#EXTINF:-1 ,CCTV-5
+http://111.12.102.68:6610/PLTV/77777777/224/3221225516/index.m3u8?
+#EXTINF:-1 ,CCTV-5+
+http://111.12.102.68:6610/PLTV/77777777/224/3221225621/index.m3u8?
+#EXTINF:-1 ,CCTV-5+
+http://111.12.102.68:6610/PLTV/77777777/224/3221225712/index.m3u8?
+#EXTINF:-1 ,CCTV-5+
+http://117.169.124.46:6410/ysten-businessmobile/live/hdcctv05plus/1.m3u8
+#EXTINF:-1 ,CCTV-6
+http://223.110.243.139/PLTV/3/224/3221225548/index.m3u8
+#EXTINF:-1 ,CCTV-6
+http://117.169.124.36:6610/ysten-businessmobile/live/cctv-6/1.m3u8
+#EXTINF:-1 ,CCTV-6
+http://111.12.102.68:6610/PLTV/77777777/224/3221225715/index.m3u8?
+#EXTINF:-1 ,CCTV-7
+http://111.12.102.68:6610/PLTV/77777777/224/3221225627/index.m3u8?
+#EXTINF:-1 ,CCTV-7
+http://111.12.102.68:6610/PLTV/77777777/224/3221225700/index.m3u8?
+#EXTINF:-1 ,CCTV-8
+http://117.169.124.36:6610/ysten-businessmobile/live/cctv-8/1.m3u8
+#EXTINF:-1 ,CCTV-8
+http://111.12.102.68:6610/PLTV/77777777/224/3221225630/index.m3u8?
+#EXTINF:-1 ,CCTV-9
+http://111.12.102.68:6610/PLTV/77777777/224/3221225633/index.m3u8?
+#EXTINF:-1 ,CCTV-9
+http://111.12.102.68:6610/PLTV/77777777/224/3221225663/index.m3u8?
+#EXTINF:-1 ,CCTV-10
+http://111.12.102.68:6610/PLTV/77777777/224/3221225624/index.m3u8?
+#EXTINF:-1 ,CCTV-10
+http://111.12.102.68:6610/PLTV/77777777/224/3221225704/index.m3u8?
+#EXTINF:-1 ,CCTV-11
+http://111.12.102.68:6610/PLTV/77777777/224/3221225739/index.m3u8?
+#EXTINF:-1 ,CCTV-11
+http://111.12.102.68:6610/PLTV/77777777/224/3221225750/index.m3u8?
+#EXTINF:-1 ,CCTV-12
+http://111.12.102.68:6610/PLTV/77777777/224/3221225645/index.m3u8?
+#EXTINF:-1 ,CCTV-12
+http://111.12.102.68:6610/PLTV/77777777/224/3221225670/index.m3u8?
+#EXTINF:-1 ,CCTV-13
+http://111.12.102.68:6610/PLTV/77777777/224/3221225677/index.m3u8?
+#EXTINF:-1 ,CCTV-13
+http://111.12.102.68:6610/PLTV/77777777/224/3221225713/index.m3u8?
+#EXTINF:-1 ,CCTV-13
+http://111.12.102.68:6610/PLTV/77777777/224/3221225742/index.m3u8?
+#EXTINF:-1 ,CCTV-14
+http://111.12.102.68:6610/PLTV/77777777/224/3221225673/index.m3u8?
+#EXTINF:-1 ,CCTV-14
+http://111.12.102.68:6610/PLTV/77777777/224/3221225648/index.m3u8?
+#EXTINF:-1 ,CCTV-15
+http://39.135.138.60:18890/PLTV/88888910/224/3221225641/index.m3u8
+#EXTINF:-1 ,CCTV-15
+http://111.12.102.68:6610/PLTV/77777777/224/3221225693/index.m3u8?
+#EXTINF:-1 ,CCTV-15
+http://111.12.102.68:6610/PLTV/77777777/224/3221225830/index.m3u8?
+#EXTINF:-1 ,CCTV-17
+http://111.12.102.68:6610/PLTV/77777777/224/3221225513/index.m3u8?
+#EXTINF:-1 ,CCTV-17
+http://111.12.102.68:6610/PLTV/77777777/224/3221225833/index.m3u8?
+#EXTINF:-1 ,CCTV-17
+http://111.12.102.68:6610/PLTV/77777777/224/3221225766/index.m3u8?
+#EXTINF:-1 ,凤凰卫视
+http://117.169.120.138:8080/live/fhchinese/index.m3u8
+#EXTINF:-1 ,东方卫视
+http://39.135.138.59:18890/PLTV/88888910/224/3221225659/index.m3u8
+#EXTINF:-1 ,东方卫视2
+http://111.12.102.68:6610/PLTV/77777777/224/3221225682/index.m3u8?
+#EXTINF:-1 ,东方卫视3
+http://111.12.102.68:6610/PLTV/77777777/224/3221225718/index.m3u8?
+#EXTINF:-1 ,湖南卫视2
+http://111.12.102.68:6610/PLTV/77777777/224/3221225692/index.m3u8?
+#EXTINF:-1 ,湖南卫视3
+http://111.12.102.68:6610/PLTV/77777777/224/3221225719/index.m3u8?
+#EXTINF:-1 ,浙江卫视2
+http://223.110.243.173/PLTV/3/224/3221227215/index.m3u8
+#EXTINF:-1 ,浙江卫视
+http://111.12.102.68:6610/PLTV/77777777/224/3221225695/index.m3u8?
+#EXTINF:-1 ,海南卫视1
+http://39.134.39.37/PLTV/88888888/224/3221226301/index.m3u8
+#EXTINF:-1 ,海南卫视
+http://39.134.39.39/PLTV/88888888/224/3221226301/index.m3u8
+#EXTINF:-1 ,贵州卫视
+http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=41&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1
+#EXTINF:-1 ,纪实人文FHD
+http://111.12.102.68:6610/PLTV/77777777/224/3221225688/index.m3u8?
+#EXTINF:-1 ,日本NHK华语
+https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
+#EXTINF:-1 ,星空卫视
+http://116.199.5.51:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=234&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1
+#EXTINF:-1 ,第一财经HD
+http://39.134.39.37/PLTV/88888888/224/3221226172/index.m3u8
+#EXTINF:-1 ,生活时尚HD
+http://39.134.168.91/PLTV/1/224/3221225498/index.m3u8
+#EXTINF:-1 ,NewTV农业致富FHD
+http://111.12.102.68:6610/PLTV/77777777/224/3221225687/index.m3u8?
+#EXTINF:-1 ,上海人文
+http://39.134.66.66/PLTV/88888888/224/3221225673/index.m3u8
+#EXTINF:-1 ,上海生活
+http://183.207.255.188/live/program/live/shsshd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海纪实
+http://183.207.255.188/live/program/live/jspdhd/4000000/mnf.m3u8
+#EXTINF:-1 ,凤凰中文台
+http://117.169.124.43:6610/ysten-businessmobile/live/fhchinese/index.m3u8
+#EXTINF:-1 ,凤凰资讯
+http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8
+#EXTINF:-1 ,凤凰资讯
+http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
+#EXTINF:-1 ,凤凰资讯
+http://117.169.124.43:6610/ysten-businessmobile/live/fhzixun/index.m3u8
+#EXTINF:-1 ,风凰资讯
+https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-240-1_live.m3u8
+#EXTINF:-1 ,星空卫视2
+https://itv.ahcme.edu.cn/hls/startv.m3u8
+#EXTINF:-1 ,澳亚卫视
+http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=192&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1
+#EXTINF:-1 ,TVB 新聞台
+http://185.207.176.189:8080/channels/tv-83/mpeg.2ts
+#EXTINF:-1 ,TVB 翡翠台
+http://185.207.176.189:8080/channels/tv-81/mpeg.2ts
+#EXTINF:-1 ,明珠台
+http://185.207.176.189:8080/channels/tv-84/mpeg.2ts
+#EXTINF:-1 ,求索三
+http://39.134.65.162/PLTV/88888888/224/3221225728/index.m3u8
+#EXTINF:-1 ,求索二
+http://39.134.65.162/PLTV/88888888/224/3221225715/index.m3u8
+#EXTINF:-1 ,求索
+http://39.134.66.66/PLTV/88888888/224/3221225730/index.m3u8
+#EXTINF:-1 ,求索
+http://39.134.65.162/PLTV/88888888/224/3221225730/index.m3u8
+#EXTINF:-1 ,求索生活
+http://39.134.66.66/PLTV/88888888/224/3221225715/index.m3u8
+#EXTINF:-1 ,求索科学
+http://39.134.66.66/PLTV/88888888/224/3221225728/index.m3u8
+#EXTINF:-1 ,求索记录
+http://39.134.66.66/PLTV/88888888/224/3221225713/index.m3u8
+#EXTINF:-1 ,求索记录4K
+http://39.134.65.162/PLTV/88888888/224/3221225713/index.m3u8
 #EXTINF:-1 ,日本全天新聞
 https://n24-cdn-live.ntv.co.jp/ch01/High.m3u8
 #EXTINF:-1 ,Bloomberg US
