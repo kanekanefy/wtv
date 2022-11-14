@@ -1,5 +1,5 @@
 #---------------------------------------------------#
-## 更新：2021-10-22 10:47:17
+## 更新：2022-10-24 10:47:88
 ## 感谢：https://github.com/Hackl0us/SS-Rule-Snippet
 ## 链接：https://fastlink.ws/link/3voymfiyogwm6i5m?clash=1
 #---------------------------------------------------#
@@ -60,128 +60,206 @@ secret: ''
 #     - https://doh.233py.com/dns-query
 
 proxies:
-  - {"name":"AIA+IPLC|香港01|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58511,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|香港02|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58512,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|香港03|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58513,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|香港04|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58514,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|香港05|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58515,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|香港01(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58501,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|香港02(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58502,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|香港03(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58503,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|香港04(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58504,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|香港05(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58505,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|新加坡01(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58521,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|新加坡02(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58522,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|新加坡03(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58523,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|台湾01(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58531,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|台湾02(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58532,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|台湾03(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58533,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|台湾04(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58534,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|台湾05(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58535,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|日本01(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58541,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|日本02(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58542,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|日本03(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58543,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|日本04(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58544,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|日本05(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58545,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|美国01(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58551,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|美国02(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58552,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|美国03(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58553,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|美国04(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58554,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"AIA+IPLC|美国05(原生)|3x","type":"vmess","server":"flbgpi.yixuedianzishu.com","port":58555,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广港01|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59911,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广港02|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59912,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广港03|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59913,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广港04|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59914,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广港05|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59915,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广港-原生01|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59921,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广港-原生02|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59922,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广港-原生03|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59923,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广港-原生04|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59924,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广港-原生05|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59925,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广新01|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59931,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广新02|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59932,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广新-原生01|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59933,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广新-原生02|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59934,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广新-原生03|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59935,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广台-原生01|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59941,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广台-原生02|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59942,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广台-原生03|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59943,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广台-原生04|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59944,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广台-原生05|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59945,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广日01|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59951,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广日02|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59952,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广日-原生01|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59956,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广日-原生02|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59957,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广日-原生03|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59958,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广日-原生04|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59959,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广日-原生05|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59960,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广美-原生01|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59971,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广美-原生02|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59972,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广美-原生03|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59973,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广美-原生04|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59974,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"iplc|广美-原生05|1.5x","type":"vmess","server":"fliplc.getxlx.com","port":59975,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|香港01","type":"vmess","server":"aflzz-hk.yixuedianzishu.com","port":42101,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|香港02","type":"vmess","server":"aflzz-hk.yixuedianzishu.com","port":42102,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|香港03","type":"vmess","server":"aflzz-hk.yixuedianzishu.com","port":42103,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|香港04","type":"vmess","server":"aflzz-hk.yixuedianzishu.com","port":42104,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|香港05","type":"vmess","server":"aflzz-hk.yixuedianzishu.com","port":42105,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|香港-原生01","type":"vmess","server":"aflzz-hk.yixuedianzishu.com","port":42111,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|香港-原生02","type":"vmess","server":"aflzz-hk.yixuedianzishu.com","port":42112,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|香港-原生03","type":"vmess","server":"aflzz-hk.yixuedianzishu.com","port":42113,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|香港-原生04","type":"vmess","server":"aflzz-hk.yixuedianzishu.com","port":42114,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|香港-原生05","type":"vmess","server":"aflzz-hk.yixuedianzishu.com","port":42115,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|台湾-原生01","type":"vmess","server":"aflzz-tw.yixuedianzishu.com","port":42121,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|台湾-原生02","type":"vmess","server":"aflzz-tw.yixuedianzishu.com","port":42122,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|台湾-原生03","type":"vmess","server":"aflzz-tw.yixuedianzishu.com","port":42123,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|台湾-原生04","type":"vmess","server":"aflzz-tw.yixuedianzishu.com","port":42124,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|台湾-原生05","type":"vmess","server":"aflzz-tw.yixuedianzishu.com","port":42125,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|新加坡01","type":"vmess","server":"aflzz-sg.yixuedianzishu.com","port":42131,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|新加坡02","type":"vmess","server":"aflzz-sg.yixuedianzishu.com","port":42132,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|新加坡03","type":"vmess","server":"aflzz-sg.yixuedianzishu.com","port":42133,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|日本01","type":"vmess","server":"aflzz-jp.yixuedianzishu.com","port":42141,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|日本02","type":"vmess","server":"aflzz-jp.yixuedianzishu.com","port":42142,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|日本03","type":"vmess","server":"aflzz-jp.yixuedianzishu.com","port":42143,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|日本04","type":"vmess","server":"aflzz-jp.yixuedianzishu.com","port":42144,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|日本05","type":"vmess","server":"aflzz-jp.yixuedianzishu.com","port":42145,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|韩国01","type":"vmess","server":"aflzz-kr.yixuedianzishu.com","port":42151,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|韩国02","type":"vmess","server":"aflzz-kr.yixuedianzishu.com","port":42152,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|韩国03","type":"vmess","server":"aflzz-kr.yixuedianzishu.com","port":42153,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|美国01","type":"vmess","server":"aflzz-us.yixuedianzishu.com","port":42161,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|美国02","type":"vmess","server":"aflzz-us.yixuedianzishu.com","port":42162,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|美国03","type":"vmess","server":"aflzz-us.yixuedianzishu.com","port":42163,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|美国04","type":"vmess","server":"aflzz-us.yixuedianzishu.com","port":42164,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|美国05","type":"vmess","server":"aflzz-us.yixuedianzishu.com","port":42165,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"中转|加拿大01","type":"vmess","server":"aflzz-us.yixuedianzishu.com","port":42171,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"Anycast|香港","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51517,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|新加坡","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51511,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"Anycast|日本","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51512,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"Anycast|台湾","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51514,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"Anycast|泰国","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51527,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|美国","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51513,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"Anycast|英国","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51518,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|德国","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51519,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|加拿大","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51520,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|韩国","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51522,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|俄罗斯","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51525,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|荷兰","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51523,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|印度","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51524,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|法国","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51526,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|阿根廷","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51529,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|巴西","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51530,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|土耳其","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51531,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"Anycast|澳大利亚","type":"vmess","server":"aflcn.yixuedianzishu.com","port":51521,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.yixuedianzishu.com"},"tls":true}
-  - {"name":"福利|新加坡|0.1x|限速10Mbps","type":"vmess","server":"aflzzul.yixuedianzishu.com","port":51515,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflzzul.yixuedianzishu.com"},"tls":true}
-  - {"name":"福利|香港01|0.1x|限速10Mbps","type":"vmess","server":"aflzzul.yixuedianzishu.com","port":52511,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflzzul.yixuedianzishu.com"},"tls":true}
-  - {"name":"福利|日本|0.1x|限速10Mbps","type":"vmess","server":"aflzzul.yixuedianzishu.com","port":52512,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflzzul.yixuedianzishu.com"},"tls":true}
-  - {"name":"福利|美国|0.1x|限速10Mbps","type":"vmess","server":"aflzzul.yixuedianzishu.com","port":52513,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflzzul.yixuedianzishu.com"},"tls":true}
-  - {"name":"下载专用|0.8x|支持大流量","type":"vmess","server":"aflzzdl.yixuedianzishu.com","port":51516,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflzzdl.yixuedianzishu.com"},"tls":true}
-  - {"name":"解锁|大陆流媒体(海外用户专用)","type":"vmess","server":"aflcn-media.yixuedianzishu.com","port":55501,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn-media.yixuedianzishu.com"}}
-  - {"name":"网易云音乐|解锁节点1 - Windows, Android","type":"ss","server":"music.desperadoj.com","port":30001,"cipher":"aes-128-gcm","password":"desperadoj.com_free_proxy_d39m"}
-  - {"name":"网易云音乐|解锁节点2 - macOS, iOS, Linux","type":"ss","server":"music.desperadoj.com","port":30003,"cipher":"aes-128-gcm","password":"desperadoj.com_free_proxy_d39m"}
-  - {"name":"Ingle01|韩国","type":"vmess","server":"v1.inglegames.com","port":443,"uuid":"e2592348-d7b0-400a-8f38-7eddc72a8517","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/cehivws","ws-headers":{"Host":"v1.inglegames.com"},"tls":true} #Oracle长期 写好了
-  - {"name":"Ingle04|新加坡","type":"vmess","server":"v4.inglegames.com","port":443,"uuid":"ed855e7d-0027-45d6-94f7-aa81d7197bf7","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/acphvws","ws-headers":{"Host":"v4.inglegames.com"},"tls":true} #Azure 22年9月到期
-  - {"name":"Ingle05|香港","type":"vmess","server":"v5.inglegames.com","port":443,"uuid":"b5071b4b-61f3-449e-84a8-93aad98eab33","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/luxyvws","ws-headers":{"Host":"v5.inglegames.com"},"tls":true} #腾讯云+奈飞隧道 写好
-  - {"name":"Ingle06|美国","type":"vmess","server":"104.19.161.197","port":443,"uuid":"5c301bb8-6c77-41a0-a606-4ba11bbabbbb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/s244","ws-headers":{"Host":"long-bread-3c6b.ingle.workers.dev"},"tls":true} #HeroKu+CF 写好了
+- {"name":"动态BGP+IPLC|香港01|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57601,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|香港02|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57602,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|香港03|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57603,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|香港04|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57604,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|香港05|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57605,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|香港01(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57611,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|香港02(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57612,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|香港03(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57613,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|香港04(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57614,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|香港05(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57615,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|新加坡01(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57621,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|新加坡02(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57622,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|新加坡03(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57623,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|新加坡04(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57624,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|新加坡05(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57625,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|台湾01(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57631,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|台湾02(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57632,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|台湾03(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57633,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|台湾04(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57634,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|台湾05(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57635,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|台湾06(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57636,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|台湾07(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57637,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|台湾08(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57638,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|台湾09(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57639,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|台湾10(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57640,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|日本01(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57641,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|日本02(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57642,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|日本03(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57643,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|日本04(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57644,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|日本05(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57645,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|美国01(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57651,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|美国02(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57652,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|美国03(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57653,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|美国04(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57654,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"动态BGP+IPLC|美国05(原生)|3x","type":"ss","server":"flbgpi.meiquankongjian.com","port":57655,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"iplc|广港01|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59911,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广港02|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59912,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广港03|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59913,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广港04|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59914,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广港05|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59915,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广港-原生01|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59921,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广港-原生02|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59922,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广港-原生03|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59923,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广港-原生04|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59924,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广港-原生05|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59925,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广新01|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59931,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广新02|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59932,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广新-原生01|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59933,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广新-原生02|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59934,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广新-原生03|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59935,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广台-原生01|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59941,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广台-原生02|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59942,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广台-原生03|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59943,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广台-原生04|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59944,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广台-原生05|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59945,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广台-原生06|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59946,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广台-原生07|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59947,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广台-原生08|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59948,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广台-原生09|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59949,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广台-原生10|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59950,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广日01|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59951,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广日02|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59952,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广日-原生01|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59956,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广日-原生02|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59957,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广日-原生03|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59958,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广日-原生04|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59959,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广日-原生05|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59960,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广美-原生01|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59971,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广美-原生02|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59972,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广美-原生03|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59973,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广美-原生04|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59974,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"iplc|广美-原生05|1.5x","type":"vmess","server":"afliplc.getxlx.com","port":59975,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|香港01","type":"vmess","server":"aflzz-hk.meiquankongjian.com","port":42101,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|香港02","type":"vmess","server":"aflzz-hk.meiquankongjian.com","port":42102,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|香港03","type":"vmess","server":"aflzz-hk.meiquankongjian.com","port":42103,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|香港04","type":"vmess","server":"aflzz-hk.meiquankongjian.com","port":42104,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|香港05","type":"vmess","server":"aflzz-hk.meiquankongjian.com","port":42105,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|香港-原生01","type":"vmess","server":"aflzz-hk.meiquankongjian.com","port":42111,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|香港-原生02","type":"vmess","server":"aflzz-hk.meiquankongjian.com","port":42112,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|香港-原生03","type":"vmess","server":"aflzz-hk.meiquankongjian.com","port":42113,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|香港-原生04","type":"vmess","server":"aflzz-hk.meiquankongjian.com","port":42114,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|香港-原生05","type":"vmess","server":"aflzz-hk.meiquankongjian.com","port":42115,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|台湾-原生01","type":"vmess","server":"aflzz-tw.meiquankongjian.com","port":42121,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|台湾-原生02","type":"vmess","server":"aflzz-tw.meiquankongjian.com","port":42122,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|台湾-原生03","type":"vmess","server":"aflzz-tw.meiquankongjian.com","port":42123,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|台湾-原生04","type":"vmess","server":"aflzz-tw.meiquankongjian.com","port":42124,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|台湾-原生05","type":"vmess","server":"aflzz-tw.meiquankongjian.com","port":42125,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|台湾-原生06","type":"vmess","server":"aflzz-tw.meiquankongjian.com","port":42126,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|台湾-原生07","type":"vmess","server":"aflzz-tw.meiquankongjian.com","port":42127,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|台湾-原生08","type":"vmess","server":"aflzz-tw.meiquankongjian.com","port":42128,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|台湾-原生09","type":"vmess","server":"aflzz-tw.meiquankongjian.com","port":42129,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|台湾-原生10","type":"vmess","server":"aflzz-tw.meiquankongjian.com","port":42130,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|新加坡01","type":"vmess","server":"aflzz-sg.meiquankongjian.com","port":42131,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|新加坡02","type":"vmess","server":"aflzz-sg.meiquankongjian.com","port":42132,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|新加坡03","type":"vmess","server":"aflzz-sg.meiquankongjian.com","port":42133,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|日本01","type":"vmess","server":"aflzz-jp.meiquankongjian.com","port":42141,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|日本02","type":"vmess","server":"aflzz-jp.meiquankongjian.com","port":42142,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|日本03","type":"vmess","server":"aflzz-jp.meiquankongjian.com","port":42143,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|日本04","type":"vmess","server":"aflzz-jp.meiquankongjian.com","port":42144,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|日本05","type":"vmess","server":"aflzz-jp.meiquankongjian.com","port":42145,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|韩国01","type":"vmess","server":"aflzz-kr.meiquankongjian.com","port":42151,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|韩国02","type":"vmess","server":"aflzz-kr.meiquankongjian.com","port":42152,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|韩国03","type":"vmess","server":"aflzz-kr.meiquankongjian.com","port":42153,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|美国01","type":"vmess","server":"aflzz-us.meiquankongjian.com","port":42161,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|美国02","type":"vmess","server":"aflzz-us.meiquankongjian.com","port":42162,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|美国03","type":"vmess","server":"aflzz-us.meiquankongjian.com","port":42163,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|美国04","type":"vmess","server":"aflzz-us.meiquankongjian.com","port":42164,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|美国05","type":"vmess","server":"aflzz-us.meiquankongjian.com","port":42165,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"中转|加拿大01","type":"vmess","server":"aflzz-us.meiquankongjian.com","port":42171,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true}
+- {"name":"Anycast|香港","type":"vmess","server":"aflcn.meiquankongjian.com","port":51517,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|新加坡","type":"vmess","server":"aflcn.meiquankongjian.com","port":51511,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true,"skip-cert-verify":true}
+- {"name":"Anycast|日本","type":"vmess","server":"aflcn.meiquankongjian.com","port":51512,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true,"skip-cert-verify":true}
+- {"name":"Anycast|台湾","type":"vmess","server":"aflcn.meiquankongjian.com","port":51514,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true,"skip-cert-verify":true}
+- {"name":"Anycast|泰国","type":"vmess","server":"aflcn.meiquankongjian.com","port":51527,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|美国","type":"vmess","server":"aflcn.meiquankongjian.com","port":51513,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true,"skip-cert-verify":true}
+- {"name":"Anycast|英国","type":"vmess","server":"aflcn.meiquankongjian.com","port":51518,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|德国","type":"vmess","server":"aflcn.meiquankongjian.com","port":51519,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|加拿大","type":"vmess","server":"aflcn.meiquankongjian.com","port":51520,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|韩国","type":"vmess","server":"aflcn.meiquankongjian.com","port":51522,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|俄罗斯","type":"vmess","server":"aflcn.meiquankongjian.com","port":51525,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|荷兰","type":"vmess","server":"aflcn.meiquankongjian.com","port":51523,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|印度","type":"vmess","server":"aflcn.meiquankongjian.com","port":51524,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|法国","type":"vmess","server":"aflcn.meiquankongjian.com","port":51526,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|阿根廷","type":"vmess","server":"aflcn.meiquankongjian.com","port":51529,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|巴西","type":"vmess","server":"aflcn.meiquankongjian.com","port":51530,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|土耳其","type":"vmess","server":"aflcn.meiquankongjian.com","port":51531,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"Anycast|澳大利亚","type":"vmess","server":"aflcn.meiquankongjian.com","port":51521,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflcn.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflcn.meiquankongjian.com"},"tls":true}
+- {"name":"福利|新加坡|0.1x|限速10Mbps","type":"vmess","server":"aflzzul.meiquankongjian.com","port":51515,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzul.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflzzul.meiquankongjian.com"},"tls":true}
+- {"name":"福利|香港01|0.1x|限速10Mbps","type":"vmess","server":"aflzzul.meiquankongjian.com","port":52511,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzul.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflzzul.meiquankongjian.com"},"tls":true}
+- {"name":"福利|日本|0.1x|限速10Mbps","type":"vmess","server":"aflzzul.meiquankongjian.com","port":52512,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzul.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflzzul.meiquankongjian.com"},"tls":true}
+- {"name":"福利|美国|0.1x|限速10Mbps","type":"vmess","server":"aflzzul.meiquankongjian.com","port":52513,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzul.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflzzul.meiquankongjian.com"},"tls":true}
+- {"name":"下载专用|0.8x|支持大流量","type":"vmess","server":"aflzzdl.meiquankongjian.com","port":51516,"uuid":"6388fd09-e0ab-3396-a7b5-8ea108fa7b75","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzdl.meiquankongjian.com"}},"ws-path":"/564dfa20/","ws-headers":{"Host":"aflzzdl.meiquankongjian.com"},"tls":true}
+- {"name":"游戏专线|香港01|3x","type":"ss","server":"aflgame.meiquankongjian.com","port":64444,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"游戏专线|香港02(原生)|3x","type":"ss","server":"aflgame.meiquankongjian.com","port":64445,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"游戏专线|新加坡01(原生)|3x","type":"ss","server":"aflgame.meiquankongjian.com","port":64454,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"游戏专线|台湾01(原生)|3x","type":"ss","server":"aflgame.meiquankongjian.com","port":64464,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"游戏专线|日本01(原生)|3x","type":"ss","server":"aflgame.meiquankongjian.com","port":64474,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"游戏专线|韩国01(原生)|3x","type":"ss","server":"aflgame.meiquankongjian.com","port":64484,"cipher":"chacha20-ietf-poly1305","password":"k5lI5Y","udp":true}
+- {"name":"网易云音乐|解锁节点1 - Windows, Android","type":"ss","server":"music.desperadoj.com","port":30001,"cipher":"aes-128-gcm","password":"desperadoj.com_free_proxy_etg0"}
+- {"name":"网易云音乐|解锁节点2 - macOS, iOS, Linux","type":"ss","server":"music.desperadoj.com","port":30003,"cipher":"aes-128-gcm","password":"desperadoj.com_free_proxy_etg0"}
+- name: Ingle01|韩国
+  type: vmess
+  server: v1.inglegames.com
+  port: 443
+  uuid: e2592348-d7b0-400a-8f38-7eddc72a8517
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: "/cehivws"
+    headers:
+      Host: v1.inglegames.com
+- name: Ingle04|新加坡
+  type: vmess
+  server: v4.inglegames.com
+  port: 443
+  uuid: ed855e7d-0027-45d6-94f7-aa81d7197bf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: "/acphvws"
+    headers:
+      Host: v4.inglegames.com
+- name: Ingle05|香港
+  type: vmess
+  server: v5.inglegames.com
+  port: 443
+  uuid: b5071b4b-61f3-449e-84a8-93aad98eab33
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: "/luxyvws"
+    headers:
+      Host: v5.inglegames.com #Oracle长期 写好了
+- name: Ingle06|美国
+  type: vmess
+  server: 104.21.92.199
+  port: 443
+  uuid: 5c301bb8-6c77-41a0-a606-4ba11bbabbbb
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: "/s244"
+    headers:
+      Host: long-bread-3c6b.ingle.workers.dev
+  # - {"name":"Ingle01|韩国","type":"vmess","server":"v1.inglegames.com","port":443,"uuid":"e2592348-d7b0-400a-8f38-7eddc72a8517","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/cehivws","ws-headers":{"Host":"v1.inglegames.com"},"tls":true} Oracle长期 写好了
+  #- {"name":"Ingle04|新加坡","type":"vmess","server":"v4.inglegames.com","port":996,"uuid":"ed855e7d-0027-45d6-94f7-aa81d7197bf7","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/acphvws","ws-headers":{"Host":"v4.inglegames.com"},"tls":true} #Azure 22年9月到期
+  # - {"name":"Ingle05|香港","type":"vmess","server":"v5.inglegames.com","port":443,"uuid":"b5071b4b-61f3-449e-84a8-93aad98eab33","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/luxyvws","ws-headers":{"Host":"v5.inglegames.com"},"tls":true} #腾讯云+奈飞隧道 写好
+  # - {"name":"Ingle06|美国","type":"vmess","server":"104.19.161.197","port":443,"uuid":"5c301bb8-6c77-41a0-a606-4ba11bbabbbb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/s244","ws-headers":{"Host":"long-bread-3c6b.ingle.workers.dev"},"tls":true} #HeroKu+CF 写好了
 
 # 名字在此
 # Ingle01|韩国
@@ -189,6 +267,8 @@ proxies:
 # Ingle05|香港
 # Ingle06|美国
 # Ingle07|新加坡
+
+
 
 proxy-groups:
 -
@@ -211,34 +291,41 @@ proxy-groups:
   name: '🚀 手动切换'
   type: select
   proxies:
-    - AIA+IPLC|香港01|3x
-    - AIA+IPLC|香港02|3x
-    - AIA+IPLC|香港03|3x
-    - AIA+IPLC|香港04|3x
-    - AIA+IPLC|香港05|3x
-    - AIA+IPLC|香港01(原生)|3x
-    - AIA+IPLC|香港02(原生)|3x
-    - AIA+IPLC|香港03(原生)|3x
-    - AIA+IPLC|香港04(原生)|3x
-    - AIA+IPLC|香港05(原生)|3x
-    - AIA+IPLC|新加坡01(原生)|3x
-    - AIA+IPLC|新加坡02(原生)|3x
-    - AIA+IPLC|新加坡03(原生)|3x
-    - AIA+IPLC|台湾01(原生)|3x
-    - AIA+IPLC|台湾02(原生)|3x
-    - AIA+IPLC|台湾03(原生)|3x
-    - AIA+IPLC|台湾04(原生)|3x
-    - AIA+IPLC|台湾05(原生)|3x
-    - AIA+IPLC|日本01(原生)|3x
-    - AIA+IPLC|日本02(原生)|3x
-    - AIA+IPLC|日本03(原生)|3x
-    - AIA+IPLC|日本04(原生)|3x
-    - AIA+IPLC|日本05(原生)|3x
-    - AIA+IPLC|美国01(原生)|3x
-    - AIA+IPLC|美国02(原生)|3x
-    - AIA+IPLC|美国03(原生)|3x
-    - AIA+IPLC|美国04(原生)|3x
-    - AIA+IPLC|美国05(原生)|3x
+    - 动态BGP+IPLC|香港01|3x
+    - 动态BGP+IPLC|香港02|3x
+    - 动态BGP+IPLC|香港03|3x
+    - 动态BGP+IPLC|香港04|3x
+    - 动态BGP+IPLC|香港05|3x
+    - 动态BGP+IPLC|香港01(原生)|3x
+    - 动态BGP+IPLC|香港02(原生)|3x
+    - 动态BGP+IPLC|香港03(原生)|3x
+    - 动态BGP+IPLC|香港04(原生)|3x
+    - 动态BGP+IPLC|香港05(原生)|3x
+    - 动态BGP+IPLC|新加坡01(原生)|3x
+    - 动态BGP+IPLC|新加坡02(原生)|3x
+    - 动态BGP+IPLC|新加坡03(原生)|3x
+    - 动态BGP+IPLC|新加坡04(原生)|3x
+    - 动态BGP+IPLC|新加坡05(原生)|3x
+    - 动态BGP+IPLC|台湾01(原生)|3x
+    - 动态BGP+IPLC|台湾02(原生)|3x
+    - 动态BGP+IPLC|台湾03(原生)|3x
+    - 动态BGP+IPLC|台湾04(原生)|3x
+    - 动态BGP+IPLC|台湾05(原生)|3x
+    - 动态BGP+IPLC|台湾06(原生)|3x
+    - 动态BGP+IPLC|台湾07(原生)|3x
+    - 动态BGP+IPLC|台湾08(原生)|3x
+    - 动态BGP+IPLC|台湾09(原生)|3x
+    - 动态BGP+IPLC|台湾10(原生)|3x
+    - 动态BGP+IPLC|日本01(原生)|3x
+    - 动态BGP+IPLC|日本02(原生)|3x
+    - 动态BGP+IPLC|日本03(原生)|3x
+    - 动态BGP+IPLC|日本04(原生)|3x
+    - 动态BGP+IPLC|日本05(原生)|3x
+    - 动态BGP+IPLC|美国01(原生)|3x
+    - 动态BGP+IPLC|美国02(原生)|3x
+    - 动态BGP+IPLC|美国03(原生)|3x
+    - 动态BGP+IPLC|美国04(原生)|3x
+    - 动态BGP+IPLC|美国05(原生)|3x
     - iplc|广港01|1.5x
     - iplc|广港02|1.5x
     - iplc|广港03|1.5x
@@ -259,6 +346,11 @@ proxy-groups:
     - iplc|广台-原生03|1.5x
     - iplc|广台-原生04|1.5x
     - iplc|广台-原生05|1.5x
+    - iplc|广台-原生06|1.5x
+    - iplc|广台-原生07|1.5x
+    - iplc|广台-原生08|1.5x
+    - iplc|广台-原生09|1.5x
+    - iplc|广台-原生10|1.5x
     - iplc|广日01|1.5x
     - iplc|广日02|1.5x
     - iplc|广日-原生01|1.5x
@@ -286,6 +378,11 @@ proxy-groups:
     - 中转|台湾-原生03
     - 中转|台湾-原生04
     - 中转|台湾-原生05
+    - 中转|台湾-原生06
+    - 中转|台湾-原生07
+    - 中转|台湾-原生08
+    - 中转|台湾-原生09
+    - 中转|台湾-原生10
     - 中转|新加坡01
     - 中转|新加坡02
     - 中转|新加坡03
@@ -326,7 +423,12 @@ proxy-groups:
     - 福利|日本|0.1x|限速10Mbps
     - 福利|美国|0.1x|限速10Mbps
     - 下载专用|0.8x|支持大流量
-    - 解锁|大陆流媒体(海外用户专用)
+    - 游戏专线|香港01|3x
+    - 游戏专线|香港02(原生)|3x
+    - 游戏专线|新加坡01(原生)|3x
+    - 游戏专线|台湾01(原生)|3x
+    - 游戏专线|日本01(原生)|3x
+    - 游戏专线|韩国01(原生)|3x
     - '网易云音乐|解锁节点1 - Windows, Android'
     - '网易云音乐|解锁节点2 - macOS, iOS, Linux'
     - Ingle01|韩国
@@ -338,6 +440,7 @@ proxy-groups:
   type: fallback
   proxies:
     - Ingle01|韩国
+    - Ingle04|新加坡
     - 中转|香港01
     - 中转|香港02
     - 中转|香港03
@@ -353,6 +456,11 @@ proxy-groups:
     - 中转|台湾-原生03
     - 中转|台湾-原生04
     - 中转|台湾-原生05
+    - 中转|台湾-原生06
+    - 中转|台湾-原生07
+    - 中转|台湾-原生08
+    - 中转|台湾-原生09
+    - 中转|台湾-原生10
     - 中转|新加坡01
     - 中转|新加坡02
     - 中转|新加坡03
@@ -391,38 +499,45 @@ proxy-groups:
     - 下载专用|0.8x|支持大流量
   url: 'http://www.qualcomm.cn/generate_204'
   interval: 180
--
+- 
   name: IPLC负载组
   type: load-balance
   proxies:
-    - AIA+IPLC|香港01|3x
-    - AIA+IPLC|香港02|3x
-    - AIA+IPLC|香港03|3x
-    - AIA+IPLC|香港04|3x
-    - AIA+IPLC|香港05|3x
-    - AIA+IPLC|香港01(原生)|3x
-    - AIA+IPLC|香港02(原生)|3x
-    - AIA+IPLC|香港03(原生)|3x
-    - AIA+IPLC|香港04(原生)|3x
-    - AIA+IPLC|香港05(原生)|3x
-    - AIA+IPLC|新加坡01(原生)|3x
-    - AIA+IPLC|新加坡02(原生)|3x
-    - AIA+IPLC|新加坡03(原生)|3x
-    - AIA+IPLC|台湾01(原生)|3x
-    - AIA+IPLC|台湾02(原生)|3x
-    - AIA+IPLC|台湾03(原生)|3x
-    - AIA+IPLC|台湾04(原生)|3x
-    - AIA+IPLC|台湾05(原生)|3x
-    - AIA+IPLC|日本01(原生)|3x
-    - AIA+IPLC|日本02(原生)|3x
-    - AIA+IPLC|日本03(原生)|3x
-    - AIA+IPLC|日本04(原生)|3x
-    - AIA+IPLC|日本05(原生)|3x
-    - AIA+IPLC|美国01(原生)|3x
-    - AIA+IPLC|美国02(原生)|3x
-    - AIA+IPLC|美国03(原生)|3x
-    - AIA+IPLC|美国04(原生)|3x
-    - AIA+IPLC|美国05(原生)|3x
+    - 动态BGP+IPLC|香港01|3x
+    - 动态BGP+IPLC|香港02|3x
+    - 动态BGP+IPLC|香港03|3x
+    - 动态BGP+IPLC|香港04|3x
+    - 动态BGP+IPLC|香港05|3x
+    - 动态BGP+IPLC|香港01(原生)|3x
+    - 动态BGP+IPLC|香港02(原生)|3x
+    - 动态BGP+IPLC|香港03(原生)|3x
+    - 动态BGP+IPLC|香港04(原生)|3x
+    - 动态BGP+IPLC|香港05(原生)|3x
+    - 动态BGP+IPLC|新加坡01(原生)|3x
+    - 动态BGP+IPLC|新加坡02(原生)|3x
+    - 动态BGP+IPLC|新加坡03(原生)|3x
+    - 动态BGP+IPLC|新加坡04(原生)|3x
+    - 动态BGP+IPLC|新加坡05(原生)|3x
+    - 动态BGP+IPLC|台湾01(原生)|3x
+    - 动态BGP+IPLC|台湾02(原生)|3x
+    - 动态BGP+IPLC|台湾03(原生)|3x
+    - 动态BGP+IPLC|台湾04(原生)|3x
+    - 动态BGP+IPLC|台湾05(原生)|3x
+    - 动态BGP+IPLC|台湾06(原生)|3x
+    - 动态BGP+IPLC|台湾07(原生)|3x
+    - 动态BGP+IPLC|台湾08(原生)|3x
+    - 动态BGP+IPLC|台湾09(原生)|3x
+    - 动态BGP+IPLC|台湾10(原生)|3x
+    - 动态BGP+IPLC|日本01(原生)|3x
+    - 动态BGP+IPLC|日本02(原生)|3x
+    - 动态BGP+IPLC|日本03(原生)|3x
+    - 动态BGP+IPLC|日本04(原生)|3x
+    - 动态BGP+IPLC|日本05(原生)|3x
+    - 动态BGP+IPLC|美国01(原生)|3x
+    - 动态BGP+IPLC|美国02(原生)|3x
+    - 动态BGP+IPLC|美国03(原生)|3x
+    - 动态BGP+IPLC|美国04(原生)|3x
+    - 动态BGP+IPLC|美国05(原生)|3x
     - iplc|广港01|1.5x
     - iplc|广港02|1.5x
     - iplc|广港03|1.5x
@@ -443,6 +558,11 @@ proxy-groups:
     - iplc|广台-原生03|1.5x
     - iplc|广台-原生04|1.5x
     - iplc|广台-原生05|1.5x
+    - iplc|广台-原生06|1.5x
+    - iplc|广台-原生07|1.5x
+    - iplc|广台-原生08|1.5x
+    - iplc|广台-原生09|1.5x
+    - iplc|广台-原生10|1.5x
     - iplc|广日01|1.5x
     - iplc|广日02|1.5x
     - iplc|广日-原生01|1.5x
@@ -461,33 +581,49 @@ proxy-groups:
   name: 台湾负载组
   type: load-balance
   proxies:
-    - AIA+IPLC|台湾01(原生)|3x
-    - AIA+IPLC|台湾02(原生)|3x
-    - AIA+IPLC|台湾03(原生)|3x
-    - AIA+IPLC|台湾04(原生)|3x
-    - AIA+IPLC|台湾05(原生)|3x
-    - iplc|广台-原生01|1.5x
-    - iplc|广台-原生02|1.5x
-    - iplc|广台-原生03|1.5x
-    - iplc|广台-原生04|1.5x
-    - iplc|广台-原生05|1.5x
-    - 中转|台湾-原生01
-    - 中转|台湾-原生02
-    - 中转|台湾-原生03
-    - 中转|台湾-原生04
-    - 中转|台湾-原生05
-    - Anycast|台湾
+  - 动态BGP+IPLC|台湾01(原生)|3x
+  - 动态BGP+IPLC|台湾02(原生)|3x
+  - 动态BGP+IPLC|台湾03(原生)|3x
+  - 动态BGP+IPLC|台湾04(原生)|3x
+  - 动态BGP+IPLC|台湾05(原生)|3x
+  - 动态BGP+IPLC|台湾06(原生)|3x
+  - 动态BGP+IPLC|台湾07(原生)|3x
+  - 动态BGP+IPLC|台湾08(原生)|3x
+  - 动态BGP+IPLC|台湾09(原生)|3x
+  - 动态BGP+IPLC|台湾10(原生)|3x
+  - iplc|广台-原生01|1.5x
+  - iplc|广台-原生02|1.5x
+  - iplc|广台-原生03|1.5x
+  - iplc|广台-原生04|1.5x
+  - iplc|广台-原生05|1.5x
+  - iplc|广台-原生06|1.5x
+  - iplc|广台-原生07|1.5x
+  - iplc|广台-原生08|1.5x
+  - iplc|广台-原生09|1.5x
+  - iplc|广台-原生10|1.5x
+  - 中转|台湾-原生01
+  - 中转|台湾-原生02
+  - 中转|台湾-原生03
+  - 中转|台湾-原生04
+  - 中转|台湾-原生05
+  - 中转|台湾-原生06
+  - 中转|台湾-原生07
+  - 中转|台湾-原生08
+  - 中转|台湾-原生09
+  - 中转|台湾-原生10
+  - Anycast|台湾
+  - 游戏专线|台湾01(原生)|3x
   url: 'http://www.qualcomm.cn/generate_204'
   interval: 180
 -
   name: 日本负载组
   type: load-balance
   proxies:
-    - AIA+IPLC|日本01(原生)|3x
-    - AIA+IPLC|日本02(原生)|3x
-    - AIA+IPLC|日本03(原生)|3x
-    - AIA+IPLC|日本04(原生)|3x
-    - AIA+IPLC|日本05(原生)|3x
+    - 动态BGP+IPLC|日本01(原生)|3x
+    - 动态BGP+IPLC|日本02(原生)|3x
+    - 动态BGP+IPLC|日本03(原生)|3x
+    - 动态BGP+IPLC|日本04(原生)|3x
+    - 动态BGP+IPLC|日本05(原生)|3x
     - iplc|广日01|1.5x
     - iplc|广日02|1.5x
     - iplc|广日-原生01|1.5x
@@ -508,16 +644,16 @@ proxy-groups:
   name: 香港负载组
   type: load-balance
   proxies:
-    - AIA+IPLC|香港01|3x
-    - AIA+IPLC|香港02|3x
-    - AIA+IPLC|香港03|3x
-    - AIA+IPLC|香港04|3x
-    - AIA+IPLC|香港05|3x
-    - AIA+IPLC|香港01(原生)|3x
-    - AIA+IPLC|香港02(原生)|3x
-    - AIA+IPLC|香港03(原生)|3x
-    - AIA+IPLC|香港04(原生)|3x
-    - AIA+IPLC|香港05(原生)|3x
+    - 动态BGP+IPLC|香港01|3x
+    - 动态BGP+IPLC|香港02|3x
+    - 动态BGP+IPLC|香港03|3x
+    - 动态BGP+IPLC|香港04|3x
+    - 动态BGP+IPLC|香港05|3x
+    - 动态BGP+IPLC|香港01(原生)|3x
+    - 动态BGP+IPLC|香港02(原生)|3x
+    - 动态BGP+IPLC|香港03(原生)|3x
+    - 动态BGP+IPLC|香港04(原生)|3x
+    - 动态BGP+IPLC|香港05(原生)|3x
     - 中转|香港01
     - 中转|香港02
     - 中转|香港03
@@ -536,9 +672,11 @@ proxy-groups:
   name: 新加坡负载组
   type: load-balance
   proxies:
-    - AIA+IPLC|新加坡01(原生)|3x
-    - AIA+IPLC|新加坡02(原生)|3x
-    - AIA+IPLC|新加坡03(原生)|3x
+    - 动态BGP+IPLC|新加坡01(原生)|3x
+    - 动态BGP+IPLC|新加坡02(原生)|3x
+    - 动态BGP+IPLC|新加坡03(原生)|3x
+    - 动态BGP+IPLC|新加坡04(原生)|3x
+    - 动态BGP+IPLC|新加坡05(原生)|3x
     - 中转|新加坡01
     - 中转|新加坡02
     - 中转|新加坡03
@@ -559,7 +697,9 @@ proxy-groups:
   name: '📺 Telegram'
   type: select
   proxies:
+    - '🇭🇰 香港节点'
     - '🇨🇳 台湾节点'
+    - '🇸🇬 狮城节点'
     - '🔰 节点选择'
     - IPLC负载组
     - '🚀 手动切换'
@@ -628,16 +768,16 @@ proxy-groups:
   name: '🇭🇰 香港节点'
   type: select
   proxies:
-    - AIA+IPLC|香港01|3x
-    - AIA+IPLC|香港02|3x
-    - AIA+IPLC|香港03|3x
-    - AIA+IPLC|香港04|3x
-    - AIA+IPLC|香港05|3x
-    - AIA+IPLC|香港01(原生)|3x
-    - AIA+IPLC|香港02(原生)|3x
-    - AIA+IPLC|香港03(原生)|3x
-    - AIA+IPLC|香港04(原生)|3x
-    - AIA+IPLC|香港05(原生)|3x
+    - 动态BGP+IPLC|香港01|3x
+    - 动态BGP+IPLC|香港02|3x
+    - 动态BGP+IPLC|香港03|3x
+    - 动态BGP+IPLC|香港04|3x
+    - 动态BGP+IPLC|香港05|3x
+    - 动态BGP+IPLC|香港01(原生)|3x
+    - 动态BGP+IPLC|香港02(原生)|3x
+    - 动态BGP+IPLC|香港03(原生)|3x
+    - 动态BGP+IPLC|香港04(原生)|3x
+    - 动态BGP+IPLC|香港05(原生)|3x
     - iplc|广港01|1.5x
     - iplc|广港02|1.5x
     - iplc|广港03|1.5x
@@ -664,29 +804,46 @@ proxy-groups:
   name: '🇨🇳 台湾节点'
   type: select
   proxies:
-    - AIA+IPLC|台湾01(原生)|3x
-    - AIA+IPLC|台湾02(原生)|3x
-    - AIA+IPLC|台湾03(原生)|3x
-    - AIA+IPLC|台湾04(原生)|3x
-    - AIA+IPLC|台湾05(原生)|3x
-    - iplc|广台-原生01|1.5x
-    - iplc|广台-原生02|1.5x
-    - iplc|广台-原生03|1.5x
-    - iplc|广台-原生04|1.5x
-    - iplc|广台-原生05|1.5x
-    - 中转|台湾-原生01
-    - 中转|台湾-原生02
-    - 中转|台湾-原生03
-    - 中转|台湾-原生04
-    - 中转|台湾-原生05
-    - Anycast|台湾
+  - 动态BGP+IPLC|台湾01(原生)|3x
+  - 动态BGP+IPLC|台湾02(原生)|3x
+  - 动态BGP+IPLC|台湾03(原生)|3x
+  - 动态BGP+IPLC|台湾04(原生)|3x
+  - 动态BGP+IPLC|台湾05(原生)|3x
+  - 动态BGP+IPLC|台湾06(原生)|3x
+  - 动态BGP+IPLC|台湾07(原生)|3x
+  - 动态BGP+IPLC|台湾08(原生)|3x
+  - 动态BGP+IPLC|台湾09(原生)|3x
+  - 动态BGP+IPLC|台湾10(原生)|3x
+  - iplc|广台-原生01|1.5x
+  - iplc|广台-原生02|1.5x
+  - iplc|广台-原生03|1.5x
+  - iplc|广台-原生04|1.5x
+  - iplc|广台-原生05|1.5x
+  - iplc|广台-原生06|1.5x
+  - iplc|广台-原生07|1.5x
+  - iplc|广台-原生08|1.5x
+  - iplc|广台-原生09|1.5x
+  - iplc|广台-原生10|1.5x
+  - 中转|台湾-原生01
+  - 中转|台湾-原生02
+  - 中转|台湾-原生03
+  - 中转|台湾-原生04
+  - 中转|台湾-原生05
+  - 中转|台湾-原生06
+  - 中转|台湾-原生07
+  - 中转|台湾-原生08
+  - 中转|台湾-原生09
+  - 中转|台湾-原生10
+  - Anycast|台湾
 -
   name: '🇸🇬 狮城节点'
   type: select
   proxies:
-    - AIA+IPLC|新加坡01(原生)|3x
-    - AIA+IPLC|新加坡02(原生)|3x
-    - AIA+IPLC|新加坡03(原生)|3x
+    - 动态BGP+IPLC|新加坡01(原生)|3x
+    - 动态BGP+IPLC|新加坡02(原生)|3x
+    - 动态BGP+IPLC|新加坡03(原生)|3x
+    - 动态BGP+IPLC|新加坡04(原生)|3x
+    - 动态BGP+IPLC|新加坡05(原生)|3x
     - 中转|新加坡01
     - 中转|新加坡02
     - 中转|新加坡03
@@ -696,11 +853,11 @@ proxy-groups:
   name: '🇯🇵 日本节点'
   type: select
   proxies:
-    - AIA+IPLC|日本01(原生)|3x
-    - AIA+IPLC|日本02(原生)|3x
-    - AIA+IPLC|日本03(原生)|3x
-    - AIA+IPLC|日本04(原生)|3x
-    - AIA+IPLC|日本05(原生)|3x
+    - 动态BGP+IPLC|日本01(原生)|3x
+    - 动态BGP+IPLC|日本02(原生)|3x
+    - 动态BGP+IPLC|日本03(原生)|3x
+    - 动态BGP+IPLC|日本04(原生)|3x
+    - 动态BGP+IPLC|日本05(原生)|3x
     - iplc|广日01|1.5x
     - iplc|广日02|1.5x
     - iplc|广日-原生01|1.5x
@@ -719,11 +876,11 @@ proxy-groups:
   name: '🇺🇲 美国节点'
   type: select
   proxies:
-    - AIA+IPLC|美国01(原生)|3x
-    - AIA+IPLC|美国02(原生)|3x
-    - AIA+IPLC|美国03(原生)|3x
-    - AIA+IPLC|美国04(原生)|3x
-    - AIA+IPLC|美国05(原生)|3x
+    - 动态BGP+IPLC|美国01(原生)|3x
+    - 动态BGP+IPLC|美国02(原生)|3x
+    - 动态BGP+IPLC|美国03(原生)|3x
+    - 动态BGP+IPLC|美国04(原生)|3x
+    - 动态BGP+IPLC|美国05(原生)|3x
     - 中转|美国01
     - 中转|美国02
     - 中转|美国03
@@ -741,34 +898,41 @@ proxy-groups:
   type: select
   proxies:
     - DIRECT
-    - AIA+IPLC|香港01|3x
-    - AIA+IPLC|香港02|3x
-    - AIA+IPLC|香港03|3x
-    - AIA+IPLC|香港04|3x
-    - AIA+IPLC|香港05|3x
-    - AIA+IPLC|香港01(原生)|3x
-    - AIA+IPLC|香港02(原生)|3x
-    - AIA+IPLC|香港03(原生)|3x
-    - AIA+IPLC|香港04(原生)|3x
-    - AIA+IPLC|香港05(原生)|3x
-    - AIA+IPLC|新加坡01(原生)|3x
-    - AIA+IPLC|新加坡02(原生)|3x
-    - AIA+IPLC|新加坡03(原生)|3x
-    - AIA+IPLC|台湾01(原生)|3x
-    - AIA+IPLC|台湾02(原生)|3x
-    - AIA+IPLC|台湾03(原生)|3x
-    - AIA+IPLC|台湾04(原生)|3x
-    - AIA+IPLC|台湾05(原生)|3x
-    - AIA+IPLC|日本01(原生)|3x
-    - AIA+IPLC|日本02(原生)|3x
-    - AIA+IPLC|日本03(原生)|3x
-    - AIA+IPLC|日本04(原生)|3x
-    - AIA+IPLC|日本05(原生)|3x
-    - AIA+IPLC|美国01(原生)|3x
-    - AIA+IPLC|美国02(原生)|3x
-    - AIA+IPLC|美国03(原生)|3x
-    - AIA+IPLC|美国04(原生)|3x
-    - AIA+IPLC|美国05(原生)|3x
+    - 动态BGP+IPLC|香港01|3x
+    - 动态BGP+IPLC|香港02|3x
+    - 动态BGP+IPLC|香港03|3x
+    - 动态BGP+IPLC|香港04|3x
+    - 动态BGP+IPLC|香港05|3x
+    - 动态BGP+IPLC|香港01(原生)|3x
+    - 动态BGP+IPLC|香港02(原生)|3x
+    - 动态BGP+IPLC|香港03(原生)|3x
+    - 动态BGP+IPLC|香港04(原生)|3x
+    - 动态BGP+IPLC|香港05(原生)|3x
+    - 动态BGP+IPLC|新加坡01(原生)|3x
+    - 动态BGP+IPLC|新加坡02(原生)|3x
+    - 动态BGP+IPLC|新加坡03(原生)|3x
+    - 动态BGP+IPLC|新加坡04(原生)|3x
+    - 动态BGP+IPLC|新加坡05(原生)|3x
+    - 动态BGP+IPLC|台湾01(原生)|3x
+    - 动态BGP+IPLC|台湾02(原生)|3x
+    - 动态BGP+IPLC|台湾03(原生)|3x
+    - 动态BGP+IPLC|台湾04(原生)|3x
+    - 动态BGP+IPLC|台湾05(原生)|3x
+    - 动态BGP+IPLC|台湾06(原生)|3x
+    - 动态BGP+IPLC|台湾07(原生)|3x
+    - 动态BGP+IPLC|台湾08(原生)|3x
+    - 动态BGP+IPLC|台湾09(原生)|3x
+    - 动态BGP+IPLC|台湾10(原生)|3x
+    - 动态BGP+IPLC|日本01(原生)|3x
+    - 动态BGP+IPLC|日本02(原生)|3x
+    - 动态BGP+IPLC|日本03(原生)|3x
+    - 动态BGP+IPLC|日本04(原生)|3x
+    - 动态BGP+IPLC|日本05(原生)|3x
+    - 动态BGP+IPLC|美国01(原生)|3x
+    - 动态BGP+IPLC|美国02(原生)|3x
+    - 动态BGP+IPLC|美国03(原生)|3x
+    - 动态BGP+IPLC|美国04(原生)|3x
+    - 动态BGP+IPLC|美国05(原生)|3x
     - iplc|广港01|1.5x
     - iplc|广港02|1.5x
     - iplc|广港03|1.5x
@@ -789,6 +953,11 @@ proxy-groups:
     - iplc|广台-原生03|1.5x
     - iplc|广台-原生04|1.5x
     - iplc|广台-原生05|1.5x
+    - iplc|广台-原生06|1.5x
+    - iplc|广台-原生07|1.5x
+    - iplc|广台-原生08|1.5x
+    - iplc|广台-原生09|1.5x
+    - iplc|广台-原生10|1.5x
     - iplc|广日01|1.5x
     - iplc|广日02|1.5x
     - iplc|广日-原生01|1.5x
@@ -816,6 +985,11 @@ proxy-groups:
     - 中转|台湾-原生03
     - 中转|台湾-原生04
     - 中转|台湾-原生05
+    - 中转|台湾-原生06
+    - 中转|台湾-原生07
+    - 中转|台湾-原生08
+    - 中转|台湾-原生09
+    - 中转|台湾-原生10
     - 中转|新加坡01
     - 中转|新加坡02
     - 中转|新加坡03
@@ -892,6 +1066,7 @@ cfw-bypass:
   - "*.423down.com"
   - "*.bokecc.com"
   - "*.chaipip.com"
+  - "*.ipinfo.io"
   - "*.hrtsea.com"
   - "*.kaikeba.com"
   - "*.laomo.me"
@@ -1335,7 +1510,6 @@ cfw-bypass:
   - "*.lanzou.com"
   - "*.lemicp.com"
   - "*.letitfly.me"
-  - "*.linkedin.com"
   - "*.lizhi.fm"
   - "*.lizhi.io"
   - "*.lizhifm.com"
@@ -1524,8 +1698,8 @@ rules:
   - PROCESS-NAME,com.aspiro.tidal,🔰 节点选择
   - DOMAIN-SUFFIX,tidal.com,🔰 节点选择
   # > YouTubeMusic
-  - PROCESS-NAME,com.google.android.apps.youtube.music,🔰 节点选择
-  - PROCESS-NAME,com.google.android.youtube.tvmusic,🔰 节点选择
+  - PROCESS-NAME,com.google.android.apps.youtube.music,📺 Telegram
+  - PROCESS-NAME,com.google.android.youtube.tvmusic,📺 Telegram
   # (Video)
   # > AbemaTV
   - PROCESS-NAME,tv.abema,🔰 节点选择
@@ -1539,22 +1713,22 @@ rules:
   - DOMAIN-SUFFIX,c4assets.com,🔰 节点选择
   - DOMAIN-SUFFIX,channel4.com,🔰 节点选择
   # > Amazon Prime Video
-  - PROCESS-NAME,com.amazon.avod.thirdp,🔰 节点选择
-  - DOMAIN-SUFFIX,aiv-cdn.net,🔰 节点选择
-  - DOMAIN-SUFFIX,aiv-delivery.net,🔰 节点选择
-  - DOMAIN-SUFFIX,amazonvideo.com,🔰 节点选择
-  - DOMAIN-SUFFIX,primevideo.com,🔰 节点选择
-  - DOMAIN-SUFFIX,media-amazon.com,🔰 节点选择
-  - DOMAIN,atv-ps.amazon.com,🔰 节点选择
-  - DOMAIN,fls-na.amazon.com,🔰 节点选择
-  - DOMAIN,avodmp4s3ww-a.akamaihd.net,🔰 节点选择
-  - DOMAIN,d25xi40x97liuc.cloudfront.net,🔰 节点选择
-  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🔰 节点选择
-  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🔰 节点选择
-  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🔰 节点选择
-  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🔰 节点选择
-  - DOMAIN,d27xxe7juh1us6.cloudfront.net,🔰 节点选择
-  - DOMAIN-KEYWORD,avoddashs,🔰 节点选择
+  - PROCESS-NAME,com.amazon.avod.thirdp,🎥 奈飞节点
+  - DOMAIN-SUFFIX,aiv-cdn.net,🎥 奈飞节点
+  - DOMAIN-SUFFIX,aiv-delivery.net,🎥 奈飞节点
+  - DOMAIN-SUFFIX,amazonvideo.com,🎥 奈飞节点
+  - DOMAIN-SUFFIX,primevideo.com,🎥 奈飞节点
+  - DOMAIN-SUFFIX,media-amazon.com,🎥 奈飞节点
+  - DOMAIN,atv-ps.amazon.com,🎥 奈飞节点
+  - DOMAIN,fls-na.amazon.com,🎥 奈飞节点
+  - DOMAIN,avodmp4s3ww-a.akamaihd.net,🎥 奈飞节点
+  - DOMAIN,d25xi40x97liuc.cloudfront.net,🎥 奈飞节点
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🎥 奈飞节点
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🎥 奈飞节点
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🎥 奈飞节点
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🎥 奈飞节点
+  - DOMAIN,d27xxe7juh1us6.cloudfront.net,🎥 奈飞节点
+  - DOMAIN-KEYWORD,avoddashs,🎥 奈飞节点
   # > Apple TV
   - DOMAIN,linear.tv.apple.com,🔰 节点选择
   - DOMAIN,play-edge.itunes.apple.com,🔰 节点选择
@@ -1698,6 +1872,7 @@ rules:
   - DOMAIN-SUFFIX,nflxso.net,🎥 奈飞节点
   - DOMAIN-SUFFIX,nflxvideo.net,🎥 奈飞节点
   - IP-CIDR,8.41.4.0/24,🎥 奈飞节点,no-resolve
+  - IP-CIDR,203.75.84.0/24,🎥 奈飞节点,no-resolve
   - IP-CIDR,23.246.0.0/18,🎥 奈飞节点,no-resolve
   - IP-CIDR,34.210.42.111/32,🎥 奈飞节点,no-resolve
   - IP-CIDR,37.77.184.0/21,🎥 奈飞节点,no-resolve
@@ -2846,33 +3021,33 @@ rules:
   - DOMAIN-SUFFIX,twitch.tv,🔰 节点选择
   - DOMAIN-SUFFIX,twitchcdn.net,🔰 节点选择
     # > Twitter
-  - DOMAIN-SUFFIX,pscp.tv,🔰 节点选择
-  - DOMAIN-SUFFIX,periscope.tv,🔰 节点选择
-  - DOMAIN-SUFFIX,t.co,🔰 节点选择
-  - DOMAIN-SUFFIX,twimg.co,🔰 节点选择
-  - DOMAIN-SUFFIX,twimg.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twitpic.com,🔰 节点选择
-  - DOMAIN-SUFFIX,vine.co,🔰 节点选择
-  - DOMAIN-KEYWORD,twitter,🔰 节点选择
-  - DOMAIN-KEYWORD,twitter,🔰 节点选择
-  - DOMAIN-SUFFIX,ads-twitter.com,🔰 节点选择
-  - DOMAIN-SUFFIX,berlintwitterwall.com,🔰 节点选择
-  - DOMAIN-SUFFIX,financetwitter.com,🔰 节点选择
-  - DOMAIN-SUFFIX,simbolostwitter.com,🔰 节点选择
-  - DOMAIN-SUFFIX,turbotwitter.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twitter.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twitter.jp,🔰 节点选择
-  - DOMAIN-SUFFIX,twitter4j.org,🔰 节点选择
-  - DOMAIN-SUFFIX,twittercounter.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twitterfeed.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twittergadget.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twitterkr.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twittermail.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twitterrific.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twittertim.es,🔰 节点选择
-  - DOMAIN-SUFFIX,twimg.co,🔰 节点选择
-  - DOMAIN-SUFFIX,twimg.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twimg.org,🔰 节点选择
+  - DOMAIN-SUFFIX,pscp.tv,📺 Telegram
+  - DOMAIN-SUFFIX,periscope.tv,📺 Telegram
+  - DOMAIN-SUFFIX,t.co,📺 Telegram
+  - DOMAIN-SUFFIX,twimg.co,📺 Telegram
+  - DOMAIN-SUFFIX,twimg.com,📺 Telegram
+  - DOMAIN-SUFFIX,twitpic.com,📺 Telegram
+  - DOMAIN-SUFFIX,vine.co,📺 Telegram
+  - DOMAIN-KEYWORD,twitter,📺 Telegram
+  - DOMAIN-KEYWORD,twitter,📺 Telegram
+  - DOMAIN-SUFFIX,ads-twitter.com,📺 Telegram
+  - DOMAIN-SUFFIX,berlintwitterwall.com,📺 Telegram
+  - DOMAIN-SUFFIX,financetwitter.com,📺 Telegram
+  - DOMAIN-SUFFIX,simbolostwitter.com,📺 Telegram
+  - DOMAIN-SUFFIX,turbotwitter.com,📺 Telegram
+  - DOMAIN-SUFFIX,twitter.com,📺 Telegram
+  - DOMAIN-SUFFIX,twitter.jp,📺 Telegram
+  - DOMAIN-SUFFIX,twitter4j.org,📺 Telegram
+  - DOMAIN-SUFFIX,twittercounter.com,📺 Telegram
+  - DOMAIN-SUFFIX,twitterfeed.com,📺 Telegram
+  - DOMAIN-SUFFIX,twittergadget.com,📺 Telegram
+  - DOMAIN-SUFFIX,twitterkr.com,📺 Telegram
+  - DOMAIN-SUFFIX,twittermail.com,📺 Telegram
+  - DOMAIN-SUFFIX,twitterrific.com,📺 Telegram
+  - DOMAIN-SUFFIX,twittertim.es,📺 Telegram
+  - DOMAIN-SUFFIX,twimg.co,📺 Telegram
+  - DOMAIN-SUFFIX,twimg.com,📺 Telegram
+  - DOMAIN-SUFFIX,twimg.org,📺 Telegram
   # > Telegram
   - DOMAIN-KEYWORD,telegram,📺 Telegram
   - DOMAIN-SUFFIX,t.me,📺 Telegram
@@ -2934,13 +3109,13 @@ rules:
   - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🔰 节点选择
   - DOMAIN,dfp6rglgjqszk.cloudfront.net,🔰 节点选择
   # > YouTube
-  - PROCESS-NAME,com.google.android.youtube,🔰 节点选择
-  - PROCESS-NAME,com.google.android.youtube.tv,🔰 节点选择
-  - DOMAIN-SUFFIX,googlevideo.com,🔰 节点选择
-  - DOMAIN-SUFFIX,youtube.com,🔰 节点选择
-  - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
-  - DOMAIN,youtubei.googleapis.com,🔰 节点选择
-  - DOMAIN,yt3.ggpht.com,🔰 节点选择
+  - PROCESS-NAME,com.google.android.youtube,📺 Telegram
+  - PROCESS-NAME,com.google.android.youtube.tv,📺 Telegram
+  - DOMAIN-SUFFIX,googlevideo.com,📺 Telegram
+  - DOMAIN-SUFFIX,youtube.com,📺 Telegram
+  - DOMAIN-SUFFIX,ytimg.com,📺 Telegram
+  - DOMAIN,youtubei.googleapis.com,📺 Telegram
+  - DOMAIN,yt3.ggpht.com,📺 Telegram
   # > IP Query
   - DOMAIN-SUFFIX,ipip.net,🔰 节点选择
   - DOMAIN-SUFFIX,ip.la,🔰 节点选择
@@ -3245,8 +3420,8 @@ rules:
   - DOMAIN-SUFFIX,alwaysvpn.com,🔰 节点选择
   - DOMAIN-SUFFIX,am730.com.hk,🔰 节点选择
   - DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
-  - DOMAIN-SUFFIX,amazon.com,🔰 节点选择
-  - DOMAIN-SUFFIX,amazonaws.com,🔰 节点选择
+  - DOMAIN-SUFFIX,amazon.com,🎥 奈飞节点
+  - DOMAIN-SUFFIX,amazonaws.com,🎥 奈飞节点
   - DOMAIN-SUFFIX,ameblo.jp,🔰 节点选择
   - DOMAIN-SUFFIX,america.gov,🔰 节点选择
   - DOMAIN-SUFFIX,american.edu,🔰 节点选择
@@ -4411,6 +4586,9 @@ rules:
   - DOMAIN-SUFFIX,ezpc.tk,🔰 节点选择
   - DOMAIN-SUFFIX,ezpeer.com,🔰 节点选择
   - DOMAIN-SUFFIX,ezua.com,🔰 节点选择
+  - DOMAIN-SUFFIX,fastlink.la,🔰 节点选择
+  - DOMAIN-SUFFIX,fastlink.ws,🔰 节点选择
+  - DOMAIN-SUFFIX,sulian.xyz,🔰 节点选择
   - DOMAIN-SUFFIX,fa.gov.tw,🔰 节点选择
   - DOMAIN-SUFFIX,facebook.br,🔰 节点选择
   - DOMAIN-SUFFIX,facebook.com,🔰 节点选择
@@ -6266,7 +6444,6 @@ rules:
   - DOMAIN-SUFFIX,netbirds.com,🔰 节点选择
   - DOMAIN-SUFFIX,netcolony.com,🔰 节点选择
   - DOMAIN-SUFFIX,netfirms.com,🔰 节点选择
-  - DOMAIN-SUFFIX,netflix.com,🔰 节点选择
   - DOMAIN-SUFFIX,netme.cc,🔰 节点选择
   - DOMAIN-SUFFIX,netsneak.com,🔰 节点选择
   - DOMAIN-SUFFIX,network54.com,🔰 节点选择
@@ -7285,6 +7462,7 @@ rules:
   - DOMAIN-SUFFIX,stoporganharvesting.org,🔰 节点选择
   - DOMAIN-SUFFIX,stoptibetcrisis.net,🔰 节点选择
   - DOMAIN-SUFFIX,storagenewsletter.com,🔰 节点选择
+  - DOMAIN-SUFFIX,store.united-arrows.co.jp,🔰 节点选择
   - DOMAIN-SUFFIX,stories.google,🔰 节点选择
   - DOMAIN-SUFFIX,storify.com,🔰 节点选择
   - DOMAIN-SUFFIX,storm.mg,🔰 节点选择
@@ -7608,7 +7786,7 @@ rules:
   - DOMAIN-SUFFIX,muscdn.com,🔰 节点选择
   - DOMAIN-SUFFIX,musical.ly,🔰 节点选择
   - DOMAIN-SUFFIX,sgpstatp.com,🔰 节点选择
-  - DOMAIN-SUFFIX,snssdk.com,🔰 节点选择
+  - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
   - DOMAIN-SUFFIX,tik-tokapi.com,🔰 节点选择
   - DOMAIN-SUFFIX,tiktok.com,🔰 节点选择
   - DOMAIN-SUFFIX,tiktokcdn.com,🔰 节点选择
@@ -7747,7 +7925,6 @@ rules:
   - DOMAIN-SUFFIX,turansam.org,🔰 节点选择
   - DOMAIN-SUFFIX,turbobit.net,🔰 节点选择
   - DOMAIN-SUFFIX,turbohide.com,🔰 节点选择
-  - DOMAIN-SUFFIX,turbotwitter.com,🔰 节点选择
   - DOMAIN-SUFFIX,turntable.fm,🔰 节点选择
   - DOMAIN-SUFFIX,tushycash.com,🔰 节点选择
   - DOMAIN-SUFFIX,tutanota.com,🔰 节点选择
@@ -8430,12 +8607,12 @@ rules:
   - DOMAIN-SUFFIX,youshun12.com,🔰 节点选择
   - DOMAIN-SUFFIX,youthnetradio.org,🔰 节点选择
   - DOMAIN-SUFFIX,youthwant.com.tw,🔰 节点选择
-  - DOMAIN-SUFFIX,youtu.be,🔰 节点选择
-  - DOMAIN-SUFFIX,youtube-nocookie.com,🔰 节点选择
-  - DOMAIN-SUFFIX,youtube.com,🔰 节点选择
-  - DOMAIN-SUFFIX,youtubecn.com,🔰 节点选择
-  - DOMAIN-SUFFIX,youtubeeducation.com,🔰 节点选择
-  - DOMAIN-SUFFIX,youtubegaming.com,🔰 节点选择
+  - DOMAIN-SUFFIX,youtu.be,📺 Telegram
+  - DOMAIN-SUFFIX,youtube-nocookie.com,📺 Telegram
+  - DOMAIN-SUFFIX,youtube.com,📺 Telegram
+  - DOMAIN-SUFFIX,youtubecn.com,📺 Telegram
+  - DOMAIN-SUFFIX,youtubeeducation.com,📺 Telegram
+  - DOMAIN-SUFFIX,youtubegaming.com,📺 Telegram
   - DOMAIN-SUFFIX,youversion.com,🔰 节点选择
   - DOMAIN-SUFFIX,youwin.com,🔰 节点选择
   - DOMAIN-SUFFIX,youxu.info,🔰 节点选择
@@ -8529,8 +8706,8 @@ rules:
   - DOMAIN-SUFFIX,zzcloud.me,🔰 节点选择
   - DOMAIN-SUFFIX,zzux.com,🔰 节点选择
   - DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
-  - DOMAIN-SUFFIX,amazon.com,🔰 节点选择
-  - DOMAIN-SUFFIX,amazonaws.com,🔰 节点选择
+  - DOMAIN-SUFFIX,amazon.com,🎥 奈飞节点
+  - DOMAIN-SUFFIX,amazonaws.com,🎥 奈飞节点
   - IP-CIDR,13.32.0.0/15,🔰 节点选择,no-resolve
   - IP-CIDR,13.35.0.0/17,🔰 节点选择,no-resolve
   - IP-CIDR,18.184.0.0/15,🔰 节点选择,no-resolve
@@ -8610,9 +8787,9 @@ rules:
   - DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
   - DOMAIN-SUFFIX,youtu.be,🔰 节点选择
-  - DOMAIN-SUFFIX,youtube-nocookie.com,🔰 节点选择
-  - DOMAIN-SUFFIX,youtube.com,🔰 节点选择
-  - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
+  - DOMAIN-SUFFIX,youtube-nocookie.com,📺 Telegram
+  - DOMAIN-SUFFIX,youtube.com,📺 Telegram
+  - DOMAIN-SUFFIX,ytimg.com,📺 Telegram
   - IP-CIDR,74.125.0.0/16,🔰 节点选择,no-resolve
   - IP-CIDR,173.194.0.0/16,🔰 节点选择,no-resolve
   - DOMAIN-SUFFIX,cdninstagram.com,🔰 节点选择
@@ -9090,6 +9267,8 @@ rules:
   - DOMAIN-SUFFIX,hostbuf.com,🎯 全球直连
   - DOMAIN-SUFFIX,huxiucdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,huya.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ipinfo.io,🎯 全球直连
+  - DOMAIN-SUFFIX,enjoymmo.com,🎯 全球直连
   - DOMAIN-SUFFIX,ibm.com,🎯 全球直连
   - DOMAIN-SUFFIX,infinitynewtab.com,🎯 全球直连
   - DOMAIN-SUFFIX,ithome.com,🎯 全球直连
@@ -9104,7 +9283,7 @@ rules:
   - DOMAIN-SUFFIX,kkmh.com,🎯 全球直连
   - DOMAIN-SUFFIX,lanzous.com,🎯 全球直连
   - DOMAIN-SUFFIX,licdn.com,🎯 全球直连
-  - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,linkedin.com,🔰 节点选择
   - DOMAIN-SUFFIX,luojilab.com,🎯 全球直连
   - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
   - DOMAIN-SUFFIX,maoyun.tv,🎯 全球直连
