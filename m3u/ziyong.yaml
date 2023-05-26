@@ -1,5 +1,5 @@
 #---------------------------------------------------#
-## 更新：2023-02-11 10:47:88
+## 更新：2023-05-11 10:47:88
 ## 感谢：https://github.com/Hackl0us/SS-Rule-Snippet
 ## 链接：https://fastlink.ws/link/3voymfiyogwm6i5m?clash=1
 #---------------------------------------------------#
@@ -203,6 +203,20 @@ proxies:
   type: vmess
   server: v1.inglegames.com
   port: 443
+  uuid: e2592348-d7b0-400a-8f38-7eddc72a8517
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: "/cehivws"
+    headers:
+      Host: v1.inglegames.com
+- name: Ingle01|韩国NOCF
+  type: vmess
+  server: 132.226.174.200
+  port: 5244
   uuid: e2592348-d7b0-400a-8f38-7eddc72a8517
   alterId: 0
   cipher: auto
@@ -431,6 +445,7 @@ proxy-groups:
     - '网易云音乐|解锁节点1 - Windows, Android'
     - '网易云音乐|解锁节点2 - macOS, iOS, Linux'
     - Ingle01|韩国
+    - Ingle01|韩国NOCF
     - Ingle04|新加坡
     - Ingle05|香港
     - Ingle06|美国
@@ -496,7 +511,7 @@ proxy-groups:
     - Anycast|土耳其
     - Anycast|澳大利亚
     - 下载专用|0.8x|支持大流量
-  url: 'http://www.qualcomm.cn/generate_204'
+  url: 'http://www.gstatic.com/generate_204'
   interval: 180
 - 
   name: IPLC负载组
@@ -574,7 +589,7 @@ proxy-groups:
     - iplc|广美-原生03|1.5x
     - iplc|广美-原生04|1.5x
     - iplc|广美-原生05|1.5x
-  url: 'http://www.qualcomm.cn/generate_204'
+  url: 'http://www.gstatic.com/generate_204'
   interval: 180
 -
   name: 台湾负载组
@@ -612,7 +627,7 @@ proxy-groups:
   - 中转|台湾-原生10
   - Anycast|台湾
   - 游戏专线|台湾01(原生)|3x
-  url: 'http://www.qualcomm.cn/generate_204'
+  url: 'http://www.gstatic.com/generate_204'
   interval: 180
 -
   name: 日本负载组
@@ -637,7 +652,8 @@ proxy-groups:
     - 中转|日本05
     - Anycast|日本
     - 福利|日本|0.1x|限速10Mbps
-  url: 'http://www.qualcomm.cn/generate_204'
+    - 游戏专线|日本01(原生)|3x
+  url: 'http://www.gstatic.com/generate_204'
   interval: 180
 -
   name: 香港负载组
@@ -665,7 +681,9 @@ proxy-groups:
     - 中转|香港-原生05
     - Anycast|香港
     - 福利|香港01|0.1x|限速10Mbps
-  url: 'http://www.qualcomm.cn/generate_204'
+    - 游戏专线|香港01|3x
+    - 游戏专线|香港02(原生)|3x
+  url: 'http://www.gstatic.com/generate_204'
   interval: 180
 -
   name: 新加坡负载组
@@ -681,8 +699,24 @@ proxy-groups:
     - 中转|新加坡03
     - Anycast|新加坡
     - 福利|新加坡|0.1x|限速10Mbps
-  url: 'http://www.qualcomm.cn/generate_204'
+    - 游戏专线|新加坡01(原生)|3x
+  url: 'http://www.gstatic.com/generate_204'
   interval: 180
+-
+  name: Youtube
+  type: select
+  proxies:
+    - '🇭🇰 香港节点'
+    - '🇨🇳 台湾节点'
+    - '🇸🇬 狮城节点'
+    - '🇯🇵 日本节点'
+    - '🇺🇲 美国节点'
+    - IPLC负载组
+    - 台湾负载组
+    - 香港负载组
+    - 新加坡负载组
+    - '🇬🇧 英国节点'
+    - DIRECT
 -
   name: '📺 巴哈姆特'
   type: select
@@ -802,6 +836,8 @@ proxy-groups:
     - 中转|香港-原生05
     - Anycast|香港
     - 福利|香港01|0.1x|限速10Mbps
+    - 游戏专线|香港01|3x
+    - 游戏专线|香港02(原生)|3x
 -
   name: '🇨🇳 台湾节点'
   type: select
@@ -837,6 +873,7 @@ proxy-groups:
   - 中转|台湾-原生09
   - 中转|台湾-原生10
   - Anycast|台湾
+  - 游戏专线|台湾01(原生)|3x
 -
   name: '🇸🇬 狮城节点'
   type: select
@@ -851,6 +888,7 @@ proxy-groups:
     - 中转|新加坡03
     - Anycast|新加坡
     - 福利|新加坡|0.1x|限速10Mbps
+    - 游戏专线|新加坡01(原生)|3x
 -
   name: '🇯🇵 日本节点'
   type: select
@@ -874,6 +912,7 @@ proxy-groups:
     - 中转|日本05
     - Anycast|日本
     - 福利|日本|0.1x|限速10Mbps
+    - 游戏专线|日本01(原生)|3x
 -
   name: '🇺🇲 美国节点'
   type: select
@@ -895,6 +934,89 @@ proxy-groups:
   type: select
   proxies:
     - Anycast|英国
+-
+  name: ChatGPT
+  type: select
+  proxies:
+    - 动态BGP+IPLC|新加坡01(原生)|3x
+    - 动态BGP+IPLC|新加坡02(原生)|3x
+    - 动态BGP+IPLC|新加坡03(原生)|3x
+    - 动态BGP+IPLC|新加坡04(原生)|3x
+    - 动态BGP+IPLC|新加坡05(原生)|3x
+    - 动态BGP+IPLC|日本01(原生)|3x
+    - 动态BGP+IPLC|日本02(原生)|3x
+    - 动态BGP+IPLC|日本03(原生)|3x
+    - 动态BGP+IPLC|日本04(原生)|3x
+    - 动态BGP+IPLC|日本05(原生)|3x
+    - 动态BGP+IPLC|美国01(原生)|3x
+    - 动态BGP+IPLC|美国02(原生)|3x
+    - 动态BGP+IPLC|美国03(原生)|3x
+    - 动态BGP+IPLC|美国04(原生)|3x
+    - 动态BGP+IPLC|美国05(原生)|3x
+    - iplc|广新01|1.5x
+    - iplc|广新02|1.5x
+    - iplc|广新-原生01|1.5x
+    - iplc|广新-原生02|1.5x
+    - iplc|广新-原生03|1.5x
+    - iplc|广台-原生01|1.5x
+    - iplc|广台-原生02|1.5x
+    - iplc|广台-原生03|1.5x
+    - iplc|广台-原生04|1.5x
+    - iplc|广台-原生05|1.5x
+    - iplc|广台-原生06|1.5x
+    - iplc|广台-原生07|1.5x
+    - iplc|广台-原生08|1.5x
+    - iplc|广台-原生09|1.5x
+    - iplc|广台-原生10|1.5x
+    - iplc|广日01|1.5x
+    - iplc|广日02|1.5x
+    - iplc|广日-原生01|1.5x
+    - iplc|广日-原生02|1.5x
+    - iplc|广日-原生03|1.5x
+    - iplc|广日-原生04|1.5x
+    - iplc|广日-原生05|1.5x
+    - iplc|广美-原生01|1.5x
+    - iplc|广美-原生02|1.5x
+    - iplc|广美-原生03|1.5x
+    - iplc|广美-原生04|1.5x
+    - iplc|广美-原生05|1.5x
+    - 中转|新加坡01
+    - 中转|新加坡02
+    - 中转|新加坡03
+    - 中转|日本01
+    - 中转|日本02
+    - 中转|日本03
+    - 中转|日本04
+    - 中转|日本05
+    - 中转|韩国01
+    - 中转|韩国02
+    - 中转|韩国03
+    - 中转|美国01
+    - 中转|美国02
+    - 中转|美国03
+    - 中转|美国04
+    - 中转|美国05
+    - 中转|加拿大01
+    - Anycast|新加坡
+    - Anycast|日本
+    - Anycast|泰国
+    - Anycast|美国
+    - Anycast|英国
+    - Anycast|德国
+    - Anycast|加拿大
+    - Anycast|韩国
+    - Anycast|俄罗斯
+    - Anycast|法国
+    - Anycast|阿根廷
+    - Anycast|巴西
+    - Anycast|土耳其
+    - Anycast|澳大利亚
+    - 福利|新加坡|0.1x|限速10Mbps
+    - 福利|日本|0.1x|限速10Mbps
+    - 福利|美国|0.1x|限速10Mbps
+    - 游戏专线|新加坡01(原生)|3x
+    - 游戏专线|日本01(原生)|3x
+    - 游戏专线|韩国01(原生)|3x
 -
   name: '🎥 奈飞节点'
   type: select
@@ -1746,6 +1868,11 @@ rules:
   - DOMAIN-SUFFIX,bbci.co.uk,🔰 节点选择
   - DOMAIN-KEYWORD,bbcfmt,🔰 节点选择
   - DOMAIN-KEYWORD,uk-live,🔰 节点选择
+   # > ChatGPT
+  - PROCESS-NAME,platform.openai.com,ChatGPT
+  - DOMAIN-SUFFIX,api.openai.com,ChatGPT
+  - DOMAIN-SUFFIX,chat.openai.com,ChatGPT
+  - DOMAIN-SUFFIX,openai.com,ChatGPT
   # > DAZN
   - PROCESS-NAME,com.dazn,🔰 节点选择
   - DOMAIN-SUFFIX,dazn.com,🔰 节点选择
@@ -1754,6 +1881,14 @@ rules:
   - DOMAIN-SUFFIX,indazn.com,🔰 节点选择
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🔰 节点选择
   - DOMAIN-KEYWORD,voddazn,🔰 节点选择
+    # > Discord
+  - DOMAIN-KEYWORD,discord,🔰 节点选择
+  - DOMAIN-SUFFIX,discord.com,🔰 节点选择
+  - DOMAIN-SUFFIX,discord.onl,🔰 节点选择
+  - DOMAIN-SUFFIX,discordapp.com,🔰 节点选择
+  - DOMAIN-SUFFIX,discordapp.net,🔰 节点选择
+  - DOMAIN-SUFFIX,discord.gg,🔰 节点选择
+  - DOMAIN-SUFFIX,discord.media,🔰 节点选择
   # > discovery+
   - PROCESS-NAME,com.discovery.discoveryplus.mobile,🔰 节点选择
   - DOMAIN-SUFFIX,disco-api.com,🔰 节点选择
@@ -3001,6 +3136,7 @@ rules:
   - PROCESS-NAME,com.twgood.android,🔰 节点选择
   - DOMAIN-SUFFIX,skyking.com.tw,🔰 节点选择
   - DOMAIN,hamifans.emome.net,🔰 节点选择
+  - DOMAIN-SUFFIX,ani.gamer.com.tw,🔰 节点选择
   # > TikTok
   - PROCESS-NAME,com.ss.android.ugc.trill,🔰 节点选择
   - DOMAIN-SUFFIX,byteoversea.com,🔰 节点选择
@@ -3110,14 +3246,34 @@ rules:
   - DOMAIN,d1k2us671qcoau.cloudfront.net,🔰 节点选择
   - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🔰 节点选择
   - DOMAIN,dfp6rglgjqszk.cloudfront.net,🔰 节点选择
+  # > YouTubeMusic
+  - PROCESS-NAME,com.google.android.apps.youtube.music,Youtube
+  - PROCESS-NAME,com.google.android.youtube.tvmusic,Youtube
   # > YouTube
-  - PROCESS-NAME,com.google.android.youtube,📺 Telegram
-  - PROCESS-NAME,com.google.android.youtube.tv,📺 Telegram
-  - DOMAIN-SUFFIX,googlevideo.com,📺 Telegram
-  - DOMAIN-SUFFIX,youtube.com,📺 Telegram
-  - DOMAIN-SUFFIX,ytimg.com,📺 Telegram
-  - DOMAIN,youtubei.googleapis.com,📺 Telegram
-  - DOMAIN,yt3.ggpht.com,📺 Telegram
+  - PROCESS-NAME,com.google.android.youtube,Youtube
+  - PROCESS-NAME,com.google.android.youtube.tv,Youtube
+  - DOMAIN-SUFFIX,googlevideo.com,Youtube
+  - DOMAIN-SUFFIX,youtube.com,Youtube
+  - DOMAIN-SUFFIX,ytimg.com,Youtube
+  - DOMAIN,youtubei.googleapis.com,Youtube
+  - DOMAIN,yt3.ggpht.com,Youtube
+  - DOMAIN-KEYWORD,youtube,Youtube
+  - DOMAIN-SUFFIX,dlyoutube.com,Youtube
+  - DOMAIN-SUFFIX,findyoutube.com,Youtube
+  - DOMAIN-SUFFIX,findyoutube.net,Youtube
+  - DOMAIN-SUFFIX,freeyoutubeproxy.net,Youtube
+  - DOMAIN-SUFFIX,listentoyoutube.com,Youtube
+  - DOMAIN-SUFFIX,onlineyoutube.com,Youtube
+  - DOMAIN-SUFFIX,withyoutube.com,Youtube
+  - DOMAIN-SUFFIX,youtu.be,Youtube
+  - DOMAIN-SUFFIX,youtube-nocookie.com,Youtube
+  - DOMAIN-SUFFIX,youtube.com,Youtube
+  - DOMAIN-SUFFIX,youtubecn.com,Youtube
+  - DOMAIN-SUFFIX,youtubeeducation.com,Youtube
+  - DOMAIN-SUFFIX,youtubegaming.com,Youtube
+  - DOMAIN-SUFFIX,youtu.be,Youtube
+  - DOMAIN-SUFFIX,youtube-nocookie.com,Youtube
+  - DOMAIN-SUFFIX,youtube.com,Youtube
   # > IP Query
   - DOMAIN-SUFFIX,ipip.net,🔰 节点选择
   - DOMAIN-SUFFIX,ip.la,🔰 节点选择
@@ -3165,6 +3321,14 @@ rules:
   - DOMAIN-SUFFIX,springsunday.net,🔰 节点选择
   - DOMAIN-SUFFIX,tjupt.org,🔰 节点选择
   - DOMAIN-SUFFIX,totheglory.im,🔰 节点选择
+  # Crypoto
+  - DOMAIN-SUFFIX,jinse.com,🔰 节点选择
+  - DOMAIN-SUFFIX,tradingview.com,🔰 节点选择
+  - DOMAIN-SUFFIX,feixiaohaozh.info,🔰 节点选择
+  - DOMAIN-SUFFIX,opensea.io,🔰 节点选择
+  - DOMAIN-SUFFIX,binance.org,🔰 节点选择
+  - DOMAIN-SUFFIX,binance.com,🔰 节点选择
+  - DOMAIN-SUFFIX,pionex.com,🔰 节点选择
   # > 其他
   - DOMAIN-SUFFIX,1password.com,🔰 节点选择
   - DOMAIN-SUFFIX,cccat.io,🔰 节点选择
@@ -3199,7 +3363,6 @@ rules:
   - DOMAIN-KEYWORD,sci-hub,🔰 节点选择
   - DOMAIN-KEYWORD,spotify,🔰 节点选择
   - DOMAIN-KEYWORD,whatsapp,🔰 节点选择
-  - DOMAIN-KEYWORD,youtube,🔰 节点选择
   - DOMAIN-SUFFIX,030buy.com,🔰 节点选择
   - DOMAIN-SUFFIX,0rz.tw,🔰 节点选择
   - DOMAIN-SUFFIX,1-apple.com.tw,🔰 节点选择
@@ -3349,7 +3512,6 @@ rules:
   - DOMAIN-SUFFIX,adelaidebbs.com,🔰 节点选择
   - DOMAIN-SUFFIX,admob.com,🔰 节点选择
   - DOMAIN-SUFFIX,adpl.org.hk,🔰 节点选择
-  - DOMAIN-SUFFIX,ads-twitter.com,🔰 节点选择
   - DOMAIN-SUFFIX,adsense.com,🔰 节点选择
   - DOMAIN-SUFFIX,adult-sex-games.com,🔰 节点选择
   - DOMAIN-SUFFIX,adultfriendfinder.com,🔰 节点选择
@@ -3906,7 +4068,6 @@ rules:
   - DOMAIN-SUFFIX,cdef.org,🔰 节点选择
   - DOMAIN-SUFFIX,cdig.info,🔰 节点选择
   - DOMAIN-SUFFIX,cdjp.org,🔰 节点选择
-  # - DOMAIN-SUFFIX,cdn-apple.com,🔰 节点选择
   - DOMAIN-SUFFIX,cdnews.com.tw,🔰 节点选择
   - DOMAIN-SUFFIX,cdninstagram.com,🔰 节点选择
   - DOMAIN-SUFFIX,cdp1989.org,🔰 节点选择
@@ -3941,6 +4102,7 @@ rules:
   - DOMAIN-SUFFIX,chapm25.com,🔰 节点选择
   - DOMAIN-SUFFIX,chatnook.com,🔰 节点选择
   - DOMAIN-SUFFIX,chaturbate.com,🔰 节点选择
+  - DOMAIN-SUFFIX,chat.openai.com,ChatGPT
   - DOMAIN-SUFFIX,chengmingmag.com,🔰 节点选择
   - DOMAIN-SUFFIX,chenguangcheng.com,🔰 节点选择
   - DOMAIN-SUFFIX,chenpokong.com,🔰 节点选择
@@ -4303,8 +4465,6 @@ rules:
   - DOMAIN-SUFFIX,directcreative.com,🔰 节点选择
   - DOMAIN-SUFFIX,discoins.com,🔰 节点选择
   - DOMAIN-SUFFIX,disconnect.me,🔰 节点选择
-  - DOMAIN-SUFFIX,discordapp.com,🔰 节点选择
-  - DOMAIN-SUFFIX,discordapp.net,🔰 节点选择
   - DOMAIN-SUFFIX,discuss.com.hk,🔰 节点选择
   - DOMAIN-SUFFIX,discuss4u.com,🔰 节点选择
   - DOMAIN-SUFFIX,dish.com,🔰 节点选择
@@ -4712,8 +4872,6 @@ rules:
   - DOMAIN-SUFFIX,filthdump.com,🔰 节点选择
   - DOMAIN-SUFFIX,finchvpn.com,🔰 节点选择
   - DOMAIN-SUFFIX,findmespot.com,🔰 节点选择
-  - DOMAIN-SUFFIX,findyoutube.com,🔰 节点选择
-  - DOMAIN-SUFFIX,findyoutube.net,🔰 节点选择
   - DOMAIN-SUFFIX,fingerdaily.com,🔰 节点选择
   - DOMAIN-SUFFIX,finler.net,🔰 节点选择
   - DOMAIN-SUFFIX,firearmsworld.net,🔰 节点选择
@@ -4826,7 +4984,6 @@ rules:
   - DOMAIN-SUFFIX,freewww.info,🔰 节点选择
   - DOMAIN-SUFFIX,freexinwen.com,🔰 节点选择
   - DOMAIN-SUFFIX,freeyellow.com,🔰 节点选择
-  - DOMAIN-SUFFIX,freeyoutubeproxy.net,🔰 节点选择
   - DOMAIN-SUFFIX,frienddy.com,🔰 节点选择
   - DOMAIN-SUFFIX,friendfeed-media.com,🔰 节点选择
   - DOMAIN-SUFFIX,friendfeed.com,🔰 节点选择
@@ -6637,7 +6794,6 @@ rules:
   - DOMAIN-SUFFIX,onejav.com,🔰 节点选择
   - DOMAIN-SUFFIX,onion.city,🔰 节点选择
   - DOMAIN-SUFFIX,onlinecha.com,🔰 节点选择
-  - DOMAIN-SUFFIX,onlineyoutube.com,🔰 节点选择
   - DOMAIN-SUFFIX,onlytweets.com,🔰 节点选择
   - DOMAIN-SUFFIX,onmoon.com,🔰 节点选择
   - DOMAIN-SUFFIX,onmoon.net,🔰 节点选择
@@ -8013,16 +8169,6 @@ rules:
   - DOMAIN-SUFFIX,twitpic.com,🔰 节点选择
   - DOMAIN-SUFFIX,twitstat.com,🔰 节点选择
   - DOMAIN-SUFFIX,twittbot.net,🔰 节点选择
-  - DOMAIN-SUFFIX,twitter.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twitter.jp,🔰 节点选择
-  - DOMAIN-SUFFIX,twitter4j.org,🔰 节点选择
-  - DOMAIN-SUFFIX,twittercounter.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twitterfeed.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twittergadget.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twitterkr.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twittermail.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twitterrific.com,🔰 节点选择
-  - DOMAIN-SUFFIX,twittertim.es,🔰 节点选择
   - DOMAIN-SUFFIX,twitthat.com,🔰 节点选择
   - DOMAIN-SUFFIX,twitturk.com,🔰 节点选择
   - DOMAIN-SUFFIX,twitturly.com,🔰 节点选择
@@ -8402,7 +8548,6 @@ rules:
   - DOMAIN-SUFFIX,wisevid.com,🔰 节点选择
   - DOMAIN-SUFFIX,wistia.com,🔰 节点选择
   - DOMAIN-SUFFIX,withgoogle.com,🔰 节点选择
-  - DOMAIN-SUFFIX,withyoutube.com,🔰 节点选择
   - DOMAIN-SUFFIX,witnessleeteaching.com,🔰 节点选择
   - DOMAIN-SUFFIX,witopia.net,🔰 节点选择
   - DOMAIN-SUFFIX,wizcrafts.net,🔰 节点选择
@@ -8609,12 +8754,6 @@ rules:
   - DOMAIN-SUFFIX,youshun12.com,🔰 节点选择
   - DOMAIN-SUFFIX,youthnetradio.org,🔰 节点选择
   - DOMAIN-SUFFIX,youthwant.com.tw,🔰 节点选择
-  - DOMAIN-SUFFIX,youtu.be,📺 Telegram
-  - DOMAIN-SUFFIX,youtube-nocookie.com,📺 Telegram
-  - DOMAIN-SUFFIX,youtube.com,📺 Telegram
-  - DOMAIN-SUFFIX,youtubecn.com,📺 Telegram
-  - DOMAIN-SUFFIX,youtubeeducation.com,📺 Telegram
-  - DOMAIN-SUFFIX,youtubegaming.com,📺 Telegram
   - DOMAIN-SUFFIX,youversion.com,🔰 节点选择
   - DOMAIN-SUFFIX,youwin.com,🔰 节点选择
   - DOMAIN-SUFFIX,youxu.info,🔰 节点选择
@@ -8747,10 +8886,6 @@ rules:
   - DOMAIN-SUFFIX,spring.io,🔰 节点选择
   - DOMAIN-SUFFIX,spring.net,🔰 节点选择
   - DOMAIN-SUFFIX,stackoverflow.com,🔰 节点选择
-  - DOMAIN-SUFFIX,discord.gg,🔰 节点选择
-  - DOMAIN-SUFFIX,discord.media,🔰 节点选择
-  - DOMAIN-SUFFIX,discordapp.com,🔰 节点选择
-  - DOMAIN-SUFFIX,discordapp.net,🔰 节点选择
   - DOMAIN-SUFFIX,facebook.com,🔰 节点选择
   - DOMAIN-SUFFIX,fb.com,🔰 节点选择
   - DOMAIN-SUFFIX,fb.me,🔰 节点选择
@@ -8766,8 +8901,8 @@ rules:
   - IP-CIDR,103.4.96.0/22,🔰 节点选择,no-resolve
   - IP-CIDR,129.134.0.0/17,🔰 节点选择,no-resolve
   - IP-CIDR,157.240.0.0/17,🔰 节点选择,no-resolve
-  - IP-CIDR,173.252.64.0/18,🔰 节点选择,no-resolve
-  - IP-CIDR,179.60.192.0/22,🔰 节点选择,no-resolve
+  - IP-CIDR,173.252.64.0/18,📺 巴哈姆特,no-resolve
+  - IP-CIDR,179.60.192.0/22,📺 巴哈姆特,no-resolve
   - IP-CIDR,185.60.216.0/22,🔰 节点选择,no-resolve
   - IP-CIDR,204.15.20.0/22,🔰 节点选择,no-resolve
   - DOMAIN-SUFFIX,github.com,🔰 节点选择
@@ -8788,10 +8923,7 @@ rules:
   - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
   - DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
-  - DOMAIN-SUFFIX,youtu.be,🔰 节点选择
-  - DOMAIN-SUFFIX,youtube-nocookie.com,📺 Telegram
-  - DOMAIN-SUFFIX,youtube.com,📺 Telegram
-  - DOMAIN-SUFFIX,ytimg.com,📺 Telegram
+  - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
   - IP-CIDR,74.125.0.0/16,🔰 节点选择,no-resolve
   - IP-CIDR,173.194.0.0/16,🔰 节点选择,no-resolve
   - DOMAIN-SUFFIX,cdninstagram.com,🔰 节点选择
@@ -8930,8 +9062,8 @@ rules:
   - DOMAIN-SUFFIX,bahamut.com.tw,📺 巴哈姆特
   - DOMAIN-SUFFIX,gamer.com.tw,📺 巴哈姆特
   - DOMAIN-SUFFIX,hinet.net,📺 巴哈姆特
-  - DOMAIN-SUFFIX,openai.com,📺 巴哈姆特
-  - DOMAIN-SUFFIX,chat.openai.com,📺 巴哈姆特
+#  - DOMAIN-SUFFIX,openai.com,📺 巴哈姆特
+#  - DOMAIN-SUFFIX,chat.openai.com,📺 巴哈姆特
 
 # China Area Network
   # > 360
@@ -9289,6 +9421,7 @@ rules:
   - DOMAIN-SUFFIX,lanzous.com,🎯 全球直连
   - DOMAIN-SUFFIX,licdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,linkedin.com,🔰 节点选择
+  - DOMAIN-SUFFIX,static-exp1.licdn.com,🔰 节点选择
   - DOMAIN-SUFFIX,luojilab.com,🎯 全球直连
   - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
   - DOMAIN-SUFFIX,maoyun.tv,🎯 全球直连
@@ -9301,6 +9434,7 @@ rules:
   - DOMAIN-SUFFIX,ntp.org,🎯 全球直连
   - DOMAIN-SUFFIX,nvidia.com,🎯 全球直连
   - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pms.crazysales.com.au,🎯 全球直连
   - DOMAIN-SUFFIX,plex.tv,🎯 全球直连
   - DOMAIN-SUFFIX,qdaily.com,🎯 全球直连
   - DOMAIN-SUFFIX,qidian.com,🎯 全球直连
