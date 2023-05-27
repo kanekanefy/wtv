@@ -1872,6 +1872,7 @@ rules:
   - PROCESS-NAME,platform.openai.com,ChatGPT
   - DOMAIN-SUFFIX,api.openai.com,ChatGPT
   - DOMAIN-SUFFIX,chat.openai.com,ChatGPT
+  - DOMAIN-SUFFIX,sentry.io,ChatGPT
   - DOMAIN-SUFFIX,openai.com,ChatGPT
   # > DAZN
   - PROCESS-NAME,com.dazn,🔰 节点选择
