@@ -210,13 +210,13 @@ proxies:
   network: ws
   tls: true
   ws-opts:
-    path: "/cehivws"
+    path: "/ztrdvws"
     headers:
       Host: v1.inglegames.com
 - name: Ingle01|韩国NOCF
   type: vmess
   server: 132.226.174.200
-  port: 5244
+  port: 6881
   uuid: e2592348-d7b0-400a-8f38-7eddc72a8517
   alterId: 0
   cipher: auto
@@ -224,7 +224,7 @@ proxies:
   network: ws
   tls: true
   ws-opts:
-    path: "/cehivws"
+    path: "/ztrdvws"
     headers:
       Host: v1.inglegames.com
 - name: Ingle04|新加坡
