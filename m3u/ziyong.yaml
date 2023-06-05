@@ -199,6 +199,20 @@ proxies:
 #    headers:
 #      Host: v1.inglegames.com
 
+#
+#- name: Ingle01|Reality测试
+#  server: 132.226.174.200
+#  type: vless
+#  port: 6881
+#  uuid: e2592348-d7b0-400a-8f38-7eddc72a8517
+#  network: tcp
+#  servername: updates.cdn-apple.com
+#  flow: xtls-rprx-vision
+#  udp: true
+#  tls: true
+#  reality-opts:
+#    public-key: CYhK1URK7zsLcs7vZ37HTR_Wt91dpim-rV0SC35_yGY
+#  client-fingerprint: chrome
 - name: Ingle01|韩国
   type: vmess
   server: v1.inglegames.com
@@ -252,9 +266,9 @@ proxies:
   network: ws
   tls: true
   ws-opts:
-    path: "/luxyvws"
+    path: "/ynurvws"
     headers:
-      Host: v5.inglegames.com #Oracle长期 写好了
+      Host: v5.inglegames.com
 - name: Ingle06|美国
   type: vmess
   server: 104.21.92.199
@@ -1017,6 +1031,7 @@ proxy-groups:
     - 游戏专线|新加坡01(原生)|3x
     - 游戏专线|日本01(原生)|3x
     - 游戏专线|韩国01(原生)|3x
+    - Ingle05|香港
 -
   name: '🎥 奈飞节点'
   type: select
