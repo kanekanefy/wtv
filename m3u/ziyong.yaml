@@ -3176,6 +3176,7 @@ rules:
   - DOMAIN-SUFFIX,twitchcdn.net,🔰 节点选择
     # > Twitter
   - DOMAIN-SUFFIX,typing.com,📺 Telegram
+  - DOMAIN-KEYWORD,typing,📺 Telegram
   - DOMAIN-SUFFIX,pscp.tv,📺 Telegram
   - DOMAIN-SUFFIX,periscope.tv,📺 Telegram
   - DOMAIN-SUFFIX,t.co,📺 Telegram
