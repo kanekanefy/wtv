@@ -1662,20 +1662,20 @@ proxies:
       path: "/ztrdvws"
       headers:
         Host: v1.inglegames.com
-  - name: Ingle04|新加坡
+  - name: Ingle07|新加坡
     type: vmess
-    server: v4.inglegames.com
+    server: v7.inglegames.com
     port: 443
-    uuid: ed855e7d-0027-45d6-94f7-aa81d7197bf7
+    uuid: fce419b7-ccbf-4a2c-bb6d-a16b52932e30
     alterId: 0
     cipher: auto
     udp: true
     network: ws
     tls: true
     ws-opts:
-      path: "/acphvws"
+      path: "/hocivws"
       headers:
-        Host: v4.inglegames.com
+        Host: v7.inglegames.com
   - name: Ingle05|香港
     type: vmess
     server: v5.inglegames.com
@@ -1711,7 +1711,7 @@ proxies:
 
   # 名字在此
   # Ingle01|韩国
-  # Ingle04|新加坡
+  # Ingle07|新加坡
   # Ingle05|香港
   # Ingle06|美国
   # Ingle07|新加坡
@@ -1877,14 +1877,14 @@ proxy-groups:
       - "网易云音乐|解锁节点2 - macOS, iOS, Linux"
       - Ingle01|韩国
       - Ingle01|韩国NOCF
-      - Ingle04|新加坡
+      - Ingle07|新加坡
       - Ingle05|香港
       - Ingle06|美国
   - name: "🔯 故障转移"
     type: fallback
     proxies:
       - Ingle01|韩国
-      - Ingle04|新加坡
+      - Ingle07|新加坡
       - 中转|香港01
       - 中转|香港02
       - 中转|香港03
@@ -2427,6 +2427,7 @@ proxy-groups:
       - 游戏专线|日本01(原生)|3x
       - 游戏专线|韩国01(原生)|3x
       - Ingle05|香港
+      - Ingle07|新加坡
   - name: "🎥 奈飞节点"
     type: select
     proxies:
@@ -2562,7 +2563,9 @@ proxy-groups:
       - 福利|香港01|0.1x|限速10Mbps
       - 福利|日本|0.1x|限速10Mbps
       - 福利|美国|0.1x|限速10Mbps
+      - Ingle01|韩国NOCF
       - Ingle05|香港
+      - Ingle07|新加坡
 
 cfw-latency-timeout: 3000
 cfw-latency-url: http://www.gstatic.com/generate_204
@@ -3302,6 +3305,8 @@ rules:
   - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,ChatGPT
   - DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net,ChatGPT
   - DOMAIN-SUFFIX,o33249.ingest.sentry.io,ChatGPT
+  - DOMAIN-SUFFIX,bard.google.com,ChatGPT
+  - DOMAIN-SUFFIX,copilot.microsoft.com,ChatGPT
   # 内容：新必应与Edge边栏解锁
   - DOMAIN,edgeservices.bing.com,ChatGPT
   - DOMAIN,www.bing.com,ChatGPT
